@@ -1,0 +1,11 @@
+<svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" fill="#E67E22" rx="8"/>
+  <text x="60" y="40" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">CASUAL</text>
+  <text x="60" y="55" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">DINING</text>
+  <rect x="35" y="65" width="50" height="30" fill="white" opacity="0.8" rx="4"/>
+  <rect x="40" y="70" width="8" height="8" fill="#E67E22"/>
+  <rect x="52" y="70" width="8" height="8" fill="#E67E22"/>
+  <rect x="64" y="70" width="8" height="8" fill="#E67E22"/>
+  <rect x="76" y="70" width="8" height="8" fill="#E67E22"/>
+  <circle cx="60" cy="85" r="4" fill="#E67E22"/>
+</svg>

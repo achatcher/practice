@@ -1,0 +1,9 @@
+<svg width="120" height="120" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" fill="#4A90E2" rx="8"/>
+  <text x="60" y="40" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">WATERFRONT</text>
+  <text x="60" y="55" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="12" font-weight="bold">DINING</text>
+  <path d="M30 70 Q60 85 90 70 L90 85 Q60 100 30 85 Z" fill="white" opacity="0.8"/>
+  <circle cx="40" cy="78" r="3" fill="#4A90E2"/>
+  <circle cx="60" cy="82" r="3" fill="#4A90E2"/>
+  <circle cx="80" cy="78" r="3" fill="#4A90E2"/>
+</svg>

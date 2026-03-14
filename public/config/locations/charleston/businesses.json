@@ -1,0 +1,79 @@
+{
+  "location": "charleston",
+  "lastUpdated": "2025-01-15T00:00:00Z",
+  "businesses": [
+    {
+      "id": 1,
+      "name": "Husk Restaurant",
+      "category": "Dining",
+      "subcategory": "Southern Cuisine",
+      "tier": "signature",
+      "description": "Award-winning Southern cuisine featuring locally sourced ingredients and traditional Lowcountry flavors in the heart of Charleston.",
+      "logo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&h=200&fit=crop&crop=center",
+      "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=400&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=400&fit=crop&crop=center",
+      "priceRange": "$$$$",
+      "location": {
+        "address": "76 Queen St, Charleston, SC 29401",
+        "lat": 32.7767,
+        "lng": -79.9311,
+        "neighborhood": "French Quarter"
+      },
+      "contact": {
+        "phone": "(843) 577-2500",
+        "website": "https://husknashville.com/charleston",
+        "email": "info@huskcharleston.com"
+      },
+      "hours": {
+        "monday": "Closed",
+        "tuesday": "5:00 PM - 10:00 PM",
+        "wednesday": "5:00 PM - 10:00 PM",
+        "thursday": "5:00 PM - 10:00 PM",
+        "friday": "5:00 PM - 11:00 PM",
+        "saturday": "5:00 PM - 11:00 PM",
+        "sunday": "5:00 PM - 10:00 PM"
+      },
+      "features": ["Farm-to-Table", "Southern Cuisine", "Craft Cocktails", "Historic Setting"],
+      "tags": ["southern", "upscale", "historic", "farm-to-table"],
+      "rating": 4.9,
+      "reviewCount": 1847
+    },
+    {
+      "id": 2,
+      "name": "Charleston Harbor Resort & Marina",
+      "category": "Private Clubs",
+      "subcategory": "Yacht Club & Marina",
+      "tier": "premier",
+      "description": "Exclusive waterfront resort and marina offering luxury accommodations, world-class dining, and premier yachting facilities.",
+      "logo": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=200&h=200&fit=crop&crop=center",
+      "image": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=400&h=400&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=400&fit=crop&crop=center",
+      "priceRange": "Member Only",
+      "location": {
+        "address": "20 Patriots Point Rd, Mt Pleasant, SC 29464",
+        "lat": 32.7886,
+        "lng": -79.9063,
+        "neighborhood": "Patriots Point"
+      },
+      "contact": {
+        "phone": "(843) 856-0028",
+        "website": "https://charlestonharborresort.com",
+        "email": "info@charlestonharbor.com"
+      },
+      "hours": {
+        "monday": "6:00 AM - 10:00 PM",
+        "tuesday": "6:00 AM - 10:00 PM",
+        "wednesday": "6:00 AM - 10:00 PM",
+        "thursday": "6:00 AM - 10:00 PM",
+        "friday": "6:00 AM - 11:00 PM",
+        "saturday": "6:00 AM - 11:00 PM",
+        "sunday": "7:00 AM - 10:00 PM"
+      },
+      "features": ["Marina Services", "Fine Dining", "Spa Services", "Event Venues"],
+      "tags": ["marina", "luxury", "waterfront", "exclusive"],
+      "membershipRequired": true,
+      "rating": 4.8,
+      "reviewCount": 234
+    }
+  ]
+}

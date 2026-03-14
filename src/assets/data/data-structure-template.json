@@ -1,0 +1,72 @@
+{
+  "_comment": "KSocial Business Data Template",
+  "_instructions": [
+    "To add a new city:",
+    "1. Create folder: /public/config/locations/{city-slug}/",
+    "2. Add businesses.json (copy this template, fill in data)",
+    "3. Add events.json (copy events template, fill in data)",
+    "4. The app will automatically pick it up — no code changes needed"
+  ],
+  "location": "city-slug",
+  "city": "City Name",
+  "state": "State",
+  "lastUpdated": "2026-01-01T00:00:00Z",
+  "businesses": [
+    {
+      "id": 1,
+      "_idNote": "Must be unique within this city's businesses.json",
+      "name": "Venue Name",
+      "category": "happy-hours",
+      "_categoryOptions": ["happy-hours", "food-specials", "live-music", "brunch", "sports-bars", "late-night"],
+      "subcategory": "Bar & Grill",
+      "tier": "featured",
+      "_tierOptions": ["featured", "standard"],
+      "_tierNote": "featured = top placement with primary color highlight. standard = regular listing.",
+      "image": "https://images.unsplash.com/photo-XXXXXX?w=400&h=400&fit=crop",
+      "logo": "https://images.unsplash.com/photo-XXXXXX?w=200&h=200&fit=crop",
+      "heroImage": "https://images.unsplash.com/photo-XXXXXX?w=800&h=400&fit=crop",
+      "description": "A short description of the venue shown in the listing and detail modal.",
+      "contact": {
+        "phone": "(555) 000-0000",
+        "address": "123 Main St, City, ST 00000",
+        "website": "https://example.com"
+      },
+      "location": {
+        "lat": 0.0,
+        "lng": 0.0,
+        "neighborhood": "Downtown"
+      },
+      "happyHour": {
+        "available": true,
+        "schedule": "Mon–Fri 4–7 PM",
+        "days": {
+          "monday":    { "available": true,  "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "Describe deals here, e.g. $2 off drafts" },
+          "tuesday":   { "available": true,  "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "Describe deals here" },
+          "wednesday": { "available": true,  "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "Describe deals here" },
+          "thursday":  { "available": true,  "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "Describe deals here" },
+          "friday":    { "available": true,  "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "Describe deals here" },
+          "saturday":  { "available": false },
+          "sunday":    { "available": false }
+        }
+      },
+      "foodSpecials": {
+        "available": false,
+        "specials": [
+          { "day": "tuesday", "name": "Special Name", "description": "Deal description" }
+        ]
+      },
+      "features": {
+        "live_music": false,
+        "outdoor_patio": false,
+        "sports_tv": false,
+        "food_menu": true,
+        "late_night": false,
+        "brunch": false,
+        "reservations": false
+      },
+      "tags": ["tag1", "tag2"],
+      "priceRange": "$$",
+      "_priceRangeOptions": ["$  = budget", "$$  = moderate", "$$$  = upscale", "$$$$  = premium"]
+    }
+  ]
+}

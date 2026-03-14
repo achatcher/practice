@@ -1,0 +1,53 @@
+/*
+ * KSocial Main Stylesheet
+ *
+ * This file imports all the CSS framework files in the correct order.
+ * Import this file in your main.js to use the KSocial design system.
+ *
+ * Usage in main.js:
+ * import './assets/styles/main.css'
+ */
+
+/* ===== CSS VARIABLES ===== */
+/* Import design tokens and variables first */
+@import './variables.css';
+
+/* ===== BASE STYLES ===== */
+/* Reset and base element styles */
+@import './base.css';
+
+/* ===== UTILITY CLASSES ===== */
+/* Atomic utility classes for rapid development */
+@import './utilities.css';
+
+/* ===== MOBILE PERFORMANCE ===== */
+/* Mobile-specific performance optimizations */
+@import './mobile-performance.css';
+
+/* ===== COMPONENT STYLES ===== */
+/* Reusable component classes */
+@import './components/buttons.css';
+@import './components/cards.css';
+@import './components/forms.css';
+@import './components/modals.css';
+@import './components/navigation.css';
+@import './components/tiers.css';
+
+/* ===== LAYOUT STYLES ===== */
+/* Page layout and grid systems */
+@import './layout/grid.css';
+@import './layout/containers.css';
+
+/* ===== PAGE STYLES ===== */
+/* Individual page components */
+@import './pages/shared.css';
+@import './pages/home.css';
+@import './pages/map.css';
+@import './pages/search.css';
+@import './pages/business-detail.css';
+@import './pages/category-listing.css';
+@import './pages/category-interstitial.css';
+@import './pages/subcategory-listing.css';
+@import './pages/contact.css';
+@import './pages/spotlights.css';
+@import './pages/share.css';

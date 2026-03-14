@@ -1,0 +1,275 @@
+/*
+ * Contact Page Styles
+ *
+ * Professional contact form styles for user inquiries and business partnerships.
+ * Features clean form design, responsive layout, and professional messaging.
+ * Uses KSocial CSS Framework variables for consistency.
+ */
+
+/* ===== CONTACT VIEW LAYOUT ===== */
+
+.contact-view {
+  min-height: 100vh;
+  background: var(--color-bg-primary);
+  padding-bottom: var(--bottom-nav-height);
+}
+
+.page-header {
+  background: var(--color-bg-luxury);
+  border-bottom: 2px solid var(--color-primary-alpha-10);
+  padding: 24px 20px 20px;
+  text-align: center;
+}
+
+.page-eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin: 0 0 8px;
+}
+
+.page-title {
+  font-family: var(--font-family-heading);
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--color-text-primary);
+  margin: 0 0 6px;
+  letter-spacing: var(--letter-spacing-wide);
+  text-transform: uppercase;
+}
+
+.page-subtitle {
+  font-size: 14px;
+  color: var(--color-text-secondary);
+  margin: 0;
+  font-weight: var(--font-weight-medium);
+}
+
+.contact-content {
+  max-width: var(--container-lg);
+  margin: 0 auto;
+  padding: var(--space-6) var(--space-4);
+}
+
+/* ===== CONTACT FORM ===== */
+
+.contact-form {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-xl);
+  padding: var(--space-8);
+  margin-bottom: var(--space-8);
+  backdrop-filter: blur(10px);
+}
+
+.form-group {
+  margin-bottom: var(--space-6);
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+}
+
+.form-label {
+  display: block;
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-2);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: var(--space-4);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--color-border-muted);
+  border-radius: var(--radius-lg);
+  color: var(--color-text-primary);
+  font-size: var(--font-size-base);
+  transition: var(--transition-all);
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  outline: none;
+  border-color: var(--color-primary);
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 0 0 3px rgba(var(--color-primary-rgb), 0.1);
+}
+
+.form-input::placeholder,
+.form-textarea::placeholder {
+  color: var(--color-text-muted);
+}
+
+.form-textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+/* ===== INQUIRY TYPE SELECTION ===== */
+
+.inquiry-type-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-3);
+}
+
+.inquiry-type-option {
+  cursor: pointer;
+}
+
+.radio-input {
+  display: none;
+}
+
+.inquiry-type-card {
+  background: rgba(255, 255, 255, 0.02);
+  border: 2px solid var(--color-border-muted);
+  border-radius: var(--radius-xl);
+  padding: var(--space-5);
+  transition: var(--transition-all);
+  text-align: center;
+}
+
+.inquiry-type-option:hover .inquiry-type-card {
+  border-color: rgba(var(--color-primary-rgb), 0.3);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.radio-input:checked + .inquiry-type-card {
+  border-color: var(--color-primary);
+  background: rgba(var(--color-primary-rgb), 0.05);
+}
+
+.inquiry-type-title {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+  margin-bottom: var(--space-2);
+}
+
+.inquiry-type-description {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}
+
+/* ===== SUBMIT BUTTON ===== */
+
+.submit-button {
+  width: 100%;
+  background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%);
+  color: var(--color-bg-primary);
+  border: none;
+  padding: var(--space-4) var(--space-8);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: var(--transition-all);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  box-shadow: var(--shadow-primary);
+}
+
+.submit-button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-primary-lg);
+}
+
+.submit-button:active {
+  transform: translateY(0);
+}
+
+.submit-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* ===== CONTACT INFORMATION ===== */
+
+.contact-info {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid var(--color-border-subtle);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.contact-info-title {
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+  margin-bottom: var(--space-4);
+  text-transform: uppercase;
+}
+
+.contact-methods {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.contact-method {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+}
+
+.contact-method strong {
+  color: var(--color-text-primary);
+}
+
+/* ===== SUCCESS MESSAGE ===== */
+
+.success-message {
+  background: rgba(0, 255, 0, 0.1);
+  border: 1px solid rgba(0, 255, 0, 0.3);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+  text-align: center;
+  margin-bottom: var(--space-8);
+}
+
+.success-message h3 {
+  color: #00ff88;
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--space-2);
+}
+
+.success-message p {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  margin: 0;
+}
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+
+/* Tablet (640px+) */
+@media (min-width: 640px) {
+  .form-row {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .inquiry-type-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .contact-methods {
+    flex-direction: row;
+    justify-content: center;
+    gap: var(--space-8);
+  }
+}

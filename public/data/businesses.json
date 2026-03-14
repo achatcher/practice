@@ -1,0 +1,937 @@
+{
+  "businesses": [
+    {
+      "id": 1,
+      "name": "Le Bernardin Hills",
+      "category": "Fine Dining",
+      "subcategory": "French",
+      "listing_tier": "signature",
+      "logo": "/images/le-bernardin-logo.jpg",
+      "location": {
+        "lat": 42.581303,
+        "lng": -83.2455
+      },
+      "contact": {
+        "phone": "(555) 234-5678",
+        "address": "1200 Summit Ridge Drive"
+      },
+      "description": "Award-winning French cuisine with an extensive wine collection. Michelin-recommended establishment featuring seasonal tasting menus and private dining rooms.",
+      "features": {
+        "reservations": true,
+        "valet": true,
+        "private_dining": true,
+        "wine_cellar": true,
+        "sommelier": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 2,
+      "name": "The Country Club at Heritage Hills",
+      "category": "Private Clubs",
+      "listing_tier": "signature",
+      "logo": "/images/country-club-logo.jpg",
+      "location": {
+        "lat": 42.582323,
+        "lng": -83.2475
+      },
+      "phone": "(555) 345-6789",
+      "address": "2500 Heritage Club Boulevard",
+      "description": "Exclusive private club offering championship golf, tennis courts, spa services, and elegant dining facilities. Member referral required.",
+      "featured": true,
+      "priceRange": "Membership",
+      "amenities": ["18-Hole Golf Course", "Tennis Courts", "Spa", "Concierge", "Event Spaces"],
+      "memberPerks": "Priority booking for club events and dining"
+    },
+    {
+      "id": 17,
+      "name": "The Hills Yacht Club",
+      "category": "Private Clubs",
+      "subcategory": "Yacht Club",
+      "listing_tier": "premier",
+      "logo": "/images/yacht-club-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 234-5679",
+        "address": "1500 Marina Drive"
+      },
+      "description": "Exclusive yacht club with marina access, sailing instruction, and waterfront dining. Members enjoy private boat slips and access to club yachts for lake excursions.",
+      "features": {
+        "marina_access": true,
+        "yacht_rentals": true,
+        "sailing_instruction": true,
+        "waterfront_dining": true,
+        "private_slips": true
+      },
+      "price_range": "$$$$"
+    },
+    {
+      "id": 18,
+      "name": "Lakeside Athletic Club",
+      "category": "Private Clubs",
+      "subcategory": "Athletic Club",
+      "listing_tier": "curated",
+      "logo": "/images/lakeside-athletic-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 345-6780",
+        "address": "1800 Lakeside Boulevard"
+      },
+      "description": "Premier athletic club featuring indoor and outdoor courts, swimming facilities, and fitness programs. Family-friendly environment with junior programs and social events.",
+      "features": {
+        "tennis_courts": true,
+        "swimming_pool": true,
+        "fitness_center": true,
+        "family_programs": true,
+        "social_events": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 3,
+      "name": "The Summit Steakhouse",
+      "category": "Fine Dining",
+      "subcategory": "Steakhouse",
+      "listing_tier": "premier",
+      "logo": "/images/summit-steakhouse-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 567-8901",
+        "address": "1850 Ridgemont Avenue"
+      },
+      "description": "Prime steakhouse featuring USDA Prime aged beef, extensive wine cellar, and intimate private dining rooms. Known for exceptional dry-aged steaks and personalized service.",
+      "features": {
+        "reservations": true,
+        "dry_aged_steaks": true,
+        "wine_cellar": true,
+        "private_dining": true,
+        "cigar_lounge": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 4,
+      "name": "Artisan Table",
+      "category": "Fine Dining",
+      "subcategory": "Contemporary American",
+      "listing_tier": "premier",
+      "logo": "/images/artisan-table-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 678-9012",
+        "address": "2200 Culinary Court"
+      },
+      "description": "Farm-to-table fine dining featuring locally sourced ingredients and innovative American cuisine. Chef's tasting menu changes seasonally with wine pairings available.",
+      "features": {
+        "reservations": true,
+        "farm_to_table": true,
+        "chefs_table": true,
+        "seasonal_menu": true,
+        "wine_pairings": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 5,
+      "name": "Bella Vista Italian",
+      "category": "Fine Dining",
+      "subcategory": "Italian",
+      "listing_tier": "premier",
+      "logo": "/images/bella-vista-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 789-0123",
+        "address": "1675 Vineyard Plaza"
+      },
+      "description": "Authentic Northern Italian cuisine with house-made pasta, imported ingredients, and an award-winning Italian wine collection. Elegant atmosphere with patio dining.",
+      "features": {
+        "reservations": true,
+        "house_made_pasta": true,
+        "italian_wines": true,
+        "patio_dining": true,
+        "private_events": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 6,
+      "name": "Sakura Omakase",
+      "category": "Fine Dining",
+      "subcategory": "Japanese",
+      "listing_tier": "signature",
+      "logo": "/images/sakura-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 890-1234",
+        "address": "950 Zen Garden Way"
+      },
+      "description": "Exclusive 12-seat sushi bar offering traditional omakase experience with Chef's daily selection of premium fish flown in from Japan. Reservation required.",
+      "features": {
+        "reservations": true,
+        "omakase_only": true,
+        "premium_sashimi": true,
+        "sake_pairing": true,
+        "counter_seating": true
+      },
+      "price_range": "$$$$"
+    },
+    {
+      "id": 7,
+      "name": "The Wine Cellar Bistro",
+      "category": "Fine Dining",
+      "subcategory": "Wine Bar",
+      "listing_tier": "curated",
+      "logo": "/images/wine-cellar-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 901-2345",
+        "address": "1425 Sommelier Street"
+      },
+      "description": "Intimate wine bar and bistro featuring small plates, artisanal cheeses, and over 500 wine selections. Perfect for wine tastings and romantic dinners.",
+      "features": {
+        "reservations": true,
+        "wine_selection": true,
+        "small_plates": true,
+        "wine_tastings": true,
+        "cheese_board": true
+      },
+      "price_range": "$$"
+    },
+    {
+      "id": 8,
+      "name": "The Brass Monkey",
+      "category": "Cocktail Hour",
+      "subcategory": "Cocktail Lounge",
+      "listing_tier": "signature",
+      "logo": "/images/brass-monkey-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 123-4567",
+        "address": "123 Main Street"
+      },
+      "description": "Upscale cocktail lounge featuring craft spirits and an extensive wine selection. Premium happy hour specials daily 4-7 PM with 50% off craft cocktails and $5 wine flights.",
+      "features": {
+        "reservations": true,
+        "craft_cocktails": true,
+        "wine_flights": true,
+        "happy_hour": true,
+        "premium_spirits": true
+      },
+      "price_range": "$$"
+    },
+    {
+      "id": 29,
+      "name": "Rooftop 360 Lounge",
+      "category": "Cocktail Hour",
+      "subcategory": "Rooftop Bar",
+      "listing_tier": "premier",
+      "logo": "/images/rooftop360-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 234-5680",
+        "address": "456 Sky Tower"
+      },
+      "description": "Spectacular city and lake views with premium cocktails and small plates. Happy hour specials 5-7 PM with $7 signature cocktails and $4 local beers.",
+      "features": {
+        "rooftop_views": true,
+        "signature_cocktails": true,
+        "small_plates": true,
+        "happy_hour": true,
+        "city_views": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 30,
+      "name": "The Wine Cellar Bar",
+      "category": "Cocktail Hour",
+      "subcategory": "Wine Bar",
+      "listing_tier": "curated",
+      "logo": "/images/wine-cellar-bar-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 345-6781",
+        "address": "789 Grape Street"
+      },
+      "description": "Intimate wine bar with curated selections from around the world. Happy hour features buy one glass, get second 50% off from 3-6 PM daily.",
+      "features": {
+        "wine_selection": true,
+        "happy_hour": true,
+        "intimate_setting": true,
+        "wine_flights": true,
+        "cheese_board": true
+      },
+      "price_range": "$$"
+    },
+    {
+      "id": 9,
+      "name": "Cartier Boutique",
+      "category": "Luxury Shopping",
+      "subcategory": "Jewelry",
+      "listing_tier": "signature",
+      "logo": "/images/cartier-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 456-7890",
+        "address": "450 Luxury Lane"
+      },
+      "description": "Prestigious jewelry and watch boutique featuring the latest Cartier collections. Personal shopping appointments available with exclusive member previews.",
+      "features": {
+        "reservations": true,
+        "personal_shopping": true,
+        "private_appointments": true,
+        "concierge_service": true,
+        "luxury_brands": true
+      },
+      "price_range": "$$$$"
+    },
+    {
+      "id": 19,
+      "name": "Hermès Boutique",
+      "category": "Luxury Shopping",
+      "subcategory": "Fashion",
+      "listing_tier": "premier",
+      "logo": "/images/hermes-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 567-8902",
+        "address": "500 Fashion Avenue"
+      },
+      "description": "Iconic French luxury house offering leather goods, ready-to-wear, perfumes, watches, and home furnishings. Exclusive collections and limited editions available.",
+      "features": {
+        "leather_goods": true,
+        "custom_orders": true,
+        "silk_scarves": true,
+        "ready_to_wear": true,
+        "home_collection": true
+      },
+      "price_range": "$$$$"
+    },
+    {
+      "id": 20,
+      "name": "Sotheby's Gallery",
+      "category": "Luxury Shopping",
+      "subcategory": "Art & Antiques",
+      "listing_tier": "curated",
+      "logo": "/images/sothebys-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 678-9013",
+        "address": "100 Art Plaza"
+      },
+      "description": "World-renowned auction house and art gallery featuring fine art, antiques, and collectibles. Private sales and art advisory services available.",
+      "features": {
+        "fine_art": true,
+        "antiques": true,
+        "auction_services": true,
+        "art_advisory": true,
+        "private_sales": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 10,
+      "name": "Serenity Hills Spa",
+      "category": "Wellness & Spa",
+      "subcategory": "Day Spa",
+      "listing_tier": "signature",
+      "logo": "/images/serenity-spa-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 789-0123",
+        "address": "2500 Wellness Way"
+      },
+      "description": "Luxury day spa offering therapeutic massages, rejuvenating facials, and wellness treatments in a tranquil mountain setting. Features organic treatments and personalized wellness programs.",
+      "features": {
+        "reservations": true,
+        "massage_therapy": true,
+        "facial_treatments": true,
+        "wellness_programs": true,
+        "organic_products": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 21,
+      "name": "The Healing Arts Center",
+      "category": "Wellness & Spa",
+      "subcategory": "Wellness Programs",
+      "listing_tier": "premier",
+      "logo": "/images/healing-arts-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 890-1235",
+        "address": "1900 Healing Way"
+      },
+      "description": "Holistic wellness center offering acupuncture, massage therapy, yoga classes, and meditation programs. Integrative approach to health and wellness with certified practitioners.",
+      "features": {
+        "acupuncture": true,
+        "massage_therapy": true,
+        "yoga_classes": true,
+        "meditation": true,
+        "holistic_treatments": true
+      },
+      "price_range": "$$"
+    },
+    {
+      "id": 22,
+      "name": "Elements Beauty Studio",
+      "category": "Wellness & Spa",
+      "subcategory": "Beauty Services",
+      "listing_tier": "curated",
+      "logo": "/images/elements-beauty-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 901-2346",
+        "address": "2100 Beauty Boulevard"
+      },
+      "description": "Full-service beauty studio offering advanced skincare, hair styling, and cosmetic treatments. Expert aestheticians and stylists using premium products and latest techniques.",
+      "features": {
+        "skincare_treatments": true,
+        "hair_styling": true,
+        "makeup_services": true,
+        "nail_care": true,
+        "cosmetic_treatments": true
+      },
+      "price_range": "$$"
+    },
+    {
+      "id": 11,
+      "name": "Hills Premier Properties",
+      "category": "Luxury Real Estate",
+      "subcategory": "Residential Sales",
+      "listing_tier": "signature",
+      "logo": "/images/hills-properties-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 234-5678",
+        "address": "1800 Estate Drive"
+      },
+      "description": "Exclusive real estate firm specializing in luxury homes and estates in The Hills. Offering personalized service for discerning buyers and sellers with portfolio properties starting at $2M.",
+      "features": {
+        "consultations": true,
+        "luxury_homes": true,
+        "estate_management": true,
+        "investment_properties": true,
+        "concierge_service": true
+      },
+      "price_range": "$$$$"
+    },
+    {
+      "id": 23,
+      "name": "Lakeside Luxury Estates",
+      "category": "Luxury Real Estate",
+      "subcategory": "Investment Properties",
+      "listing_tier": "premier",
+      "logo": "/images/lakeside-estates-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 345-6781",
+        "address": "1600 Estate Circle"
+      },
+      "description": "Specialized in waterfront luxury properties and investment estates. Portfolio includes lakefront homes, vacation rentals, and commercial properties with exceptional ROI potential.",
+      "features": {
+        "waterfront_properties": true,
+        "investment_analysis": true,
+        "vacation_rentals": true,
+        "commercial_properties": true,
+        "roi_consultation": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 24,
+      "name": "Heritage Hills Realty",
+      "category": "Luxury Real Estate",
+      "subcategory": "Estate Management",
+      "listing_tier": "curated",
+      "logo": "/images/heritage-realty-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 456-7892",
+        "address": "1400 Heritage Court"
+      },
+      "description": "Comprehensive estate management services including property maintenance, rental management, and caretaking services for luxury properties and vacation homes.",
+      "features": {
+        "property_maintenance": true,
+        "rental_management": true,
+        "caretaking_services": true,
+        "luxury_concierge": true,
+        "estate_coordination": true
+      },
+      "price_range": "$$"
+    },
+    {
+      "id": 12,
+      "name": "Hills Cultural Center",
+      "category": "Arts & Culture",
+      "subcategory": "Gallery & Events",
+      "listing_tier": "signature",
+      "logo": "/images/cultural-center-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 345-6789",
+        "address": "1200 Arts Plaza"
+      },
+      "description": "Premier cultural destination featuring rotating art exhibitions, live performances, and exclusive cultural events. Members enjoy private gallery viewings and artist meet-and-greets.",
+      "features": {
+        "art_exhibitions": true,
+        "live_performances": true,
+        "private_events": true,
+        "artist_programs": true,
+        "member_events": true
+      },
+      "price_range": "$$"
+    },
+    {
+      "id": 25,
+      "name": "The Symphony Hall",
+      "category": "Arts & Culture",
+      "subcategory": "Performances",
+      "listing_tier": "premier",
+      "logo": "/images/symphony-hall-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 567-8903",
+        "address": "800 Symphony Drive"
+      },
+      "description": "Premier concert hall featuring classical music performances, chamber ensembles, and visiting orchestras. Intimate venue with exceptional acoustics and exclusive season memberships.",
+      "features": {
+        "classical_performances": true,
+        "chamber_music": true,
+        "visiting_artists": true,
+        "season_memberships": true,
+        "exceptional_acoustics": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 26,
+      "name": "Artisan Workshops",
+      "category": "Arts & Culture",
+      "subcategory": "Cultural Programs",
+      "listing_tier": "curated",
+      "logo": "/images/artisan-workshops-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 678-9014",
+        "address": "600 Creative Lane"
+      },
+      "description": "Creative workshops and cultural programs for art enthusiasts. Pottery, painting, sculpture classes taught by professional artists. Gallery space features local and regional artists.",
+      "features": {
+        "art_classes": true,
+        "pottery_studio": true,
+        "painting_workshops": true,
+        "sculpture_classes": true,
+        "local_gallery": true
+      },
+      "price_range": "$"
+    },
+    {
+      "id": 13,
+      "name": "Elite Athletic Club",
+      "category": "Athletics",
+      "subcategory": "Fitness Club",
+      "listing_tier": "signature",
+      "logo": "/images/elite-athletic-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 456-7890",
+        "address": "3000 Fitness Boulevard"
+      },
+      "description": "State-of-the-art athletic facility with personal training, group fitness classes, and premium amenities. Features golf simulators, tennis courts, and recovery services.",
+      "features": {
+        "personal_training": true,
+        "group_classes": true,
+        "golf_simulators": true,
+        "tennis_courts": true,
+        "recovery_services": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 27,
+      "name": "Hills Golf Academy",
+      "category": "Athletics",
+      "subcategory": "Golf",
+      "listing_tier": "premier",
+      "logo": "/images/golf-academy-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 789-0124",
+        "address": "2800 Golf Academy Drive"
+      },
+      "description": "Professional golf instruction and training facility with PGA-certified instructors. Features driving range, putting greens, and state-of-the-art swing analysis technology.",
+      "features": {
+        "pga_instruction": true,
+        "driving_range": true,
+        "putting_greens": true,
+        "swing_analysis": true,
+        "private_lessons": true
+      },
+      "price_range": "$$"
+    },
+    {
+      "id": 28,
+      "name": "Racquet Club Pro Shop",
+      "category": "Athletics",
+      "subcategory": "Tennis",
+      "listing_tier": "curated",
+      "logo": "/images/racquet-club-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 890-1236",
+        "address": "2600 Tennis Court Way"
+      },
+      "description": "Tennis pro shop and instruction facility with professional courts and certified instructors. Equipment sales, stringing services, and tournament organization.",
+      "features": {
+        "tennis_instruction": true,
+        "court_rentals": true,
+        "equipment_sales": true,
+        "stringing_services": true,
+        "tournament_play": true
+      },
+      "price_range": "$"
+    },
+    {
+      "id": 14,
+      "name": "Hills Premier Concierge",
+      "category": "Concierge Services",
+      "subcategory": "Personal Assistant",
+      "listing_tier": "signature",
+      "logo": "/images/hills-concierge-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 567-8901",
+        "address": "4000 Executive Plaza"
+      },
+      "description": "Exclusive personal concierge service for discerning clients. From travel arrangements and event planning to household management and lifestyle coordination. Available 24/7 for members.",
+      "features": {
+        "personal_assistant": true,
+        "travel_planning": true,
+        "event_coordination": true,
+        "household_management": true,
+        "lifestyle_services": true
+      },
+      "price_range": "$$$$"
+    },
+    {
+      "id": 15,
+      "name": "Elite Travel Services",
+      "category": "Concierge Services",
+      "subcategory": "Travel",
+      "listing_tier": "premier",
+      "logo": "/images/elite-travel-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 678-9012",
+        "address": "3500 Luxury Avenue"
+      },
+      "description": "Luxury travel planning and management services. Private jet arrangements, exclusive resort bookings, and personalized travel experiences worldwide.",
+      "features": {
+        "private_jet": true,
+        "luxury_accommodations": true,
+        "travel_coordination": true,
+        "destination_planning": true,
+        "concierge_support": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 16,
+      "name": "Platinum Event Planning",
+      "category": "Concierge Services",
+      "subcategory": "Events",
+      "listing_tier": "curated",
+      "logo": "/images/platinum-events-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 789-0123",
+        "address": "2800 Celebration Court"
+      },
+      "description": "Professional event planning and coordination services for private parties, corporate events, and special celebrations. Full-service planning from concept to execution.",
+      "features": {
+        "event_planning": true,
+        "vendor_coordination": true,
+        "venue_selection": true,
+        "catering_management": true,
+        "entertainment_booking": true
+      },
+      "price_range": "$$"
+    },
+    {
+      "id": 31,
+      "name": "Little Explorers Academy",
+      "category": "Children",
+      "subcategory": "Educational Programs",
+      "listing_tier": "signature",
+      "logo": "/images/little-explorers-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 345-6789",
+        "address": "1200 Learning Plaza"
+      },
+      "description": "Premier educational center offering interactive learning experiences, STEM programs, and creative workshops designed to inspire young minds. Features state-of-the-art learning labs and certified educators.",
+      "features": {
+        "stem_programs": true,
+        "creative_workshops": true,
+        "interactive_learning": true,
+        "certified_educators": true,
+        "parent_programs": true
+      },
+      "price_range": "$$"
+    },
+    {
+      "id": 32,
+      "name": "Kids Kingdom Play Center",
+      "category": "Children",
+      "subcategory": "Kids Activities",
+      "listing_tier": "premier",
+      "logo": "/images/kids-kingdom-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 567-8903",
+        "address": "800 Playful Drive"
+      },
+      "description": "Premier indoor play center featuring interactive play zones, climbing structures, and educational activities. Safe, supervised environment with birthday party packages and parent lounges.",
+      "features": {
+        "interactive_play": true,
+        "climbing_structures": true,
+        "birthday_parties": true,
+        "parent_lounges": true,
+        "supervised_activities": true
+      },
+      "price_range": "$$$"
+    },
+    {
+      "id": 33,
+      "name": "Creative Kids Studio",
+      "category": "Children",
+      "subcategory": "Family Entertainment",
+      "listing_tier": "curated",
+      "logo": "/images/creative-kids-logo.jpg",
+      "location": {
+        "lat": 42.58,
+        "lng": -83.24
+      },
+      "contact": {
+        "phone": "(555) 678-9014",
+        "address": "600 Creative Lane"
+      },
+      "description": "Art and creativity workshops designed specifically for children ages 3-12. Pottery, painting, and craft classes taught by kid-friendly instructors. Family art sessions and birthday party options available.",
+      "features": {
+        "kids_art_classes": true,
+        "pottery_for_kids": true,
+        "painting_workshops": true,
+        "craft_sessions": true,
+        "family_classes": true
+      },
+      "price_range": "$"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fine Dining",
+      "image": "/images/fine-dining.jpg",
+      "icon": "🍽️",
+      "filterTags": ["French", "Steakhouse", "Seafood", "Wine Bar"],
+      "description": "Curated selection of award-winning restaurants and culinary experiences",
+      "subcategories": [
+        "French",
+        "Steakhouse",
+        "Contemporary American",
+        "Italian",
+        "Japanese",
+        "Wine Bar"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Private Clubs",
+      "image": "/images/private-clubs.jpg",
+      "icon": "🏛️",
+      "filterTags": ["Country Club", "Golf", "Tennis", "Spa"],
+      "description": "Exclusive member-only clubs and premium recreational facilities"
+    },
+    {
+      "id": 3,
+      "name": "Luxury Shopping",
+      "image": "/images/luxury-shopping.jpg",
+      "icon": "💎",
+      "filterTags": ["Jewelry", "Fashion", "Art", "Antiques"],
+      "description": "Boutique shopping and premium luxury goods",
+      "subcategories": [
+        "Jewelry",
+        "Fashion",
+        "Art",
+        "Antiques"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Wellness & Spa",
+      "image": "/images/wellness-spa.jpg",
+      "icon": "🧘",
+      "filterTags": ["Day Spa", "Massage Therapy", "Wellness Programs", "Beauty"],
+      "description": "Rejuvenating spa treatments and wellness experiences",
+      "subcategories": [
+        "Day Spa",
+        "Massage Therapy",
+        "Wellness Programs",
+        "Beauty Services"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Luxury Real Estate",
+      "image": "/images/real-estate.jpg",
+      "icon": "🏡",
+      "filterTags": ["Residential Sales", "Investment Properties", "Estate Management"],
+      "description": "Premier real estate services for luxury properties",
+      "subcategories": [
+        "Residential Sales",
+        "Investment Properties",
+        "Estate Management"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Arts & Culture",
+      "image": "/images/arts-culture.jpg",
+      "icon": "🎭",
+      "filterTags": ["Gallery & Events", "Performances", "Cultural Programs"],
+      "description": "Cultural experiences and artistic endeavors",
+      "subcategories": [
+        "Gallery & Events",
+        "Performances",
+        "Cultural Programs"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Athletics",
+      "image": "/images/athletics.jpg",
+      "icon": "⚽",
+      "filterTags": ["Fitness Club", "Golf", "Tennis", "Personal Training"],
+      "description": "Premium athletic facilities and fitness programs",
+      "subcategories": [
+        "Fitness Club",
+        "Golf",
+        "Tennis",
+        "Personal Training"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Concierge Services",
+      "image": "/images/concierge.jpg",
+      "icon": "🎩",
+      "filterTags": ["Personal Assistant", "Travel", "Events", "Household"],
+      "description": "Professional concierge and lifestyle management services"
+    },
+    {
+      "id": 9,
+      "name": "Children",
+      "image": "/images/children.jpg",
+      "icon": "🧸",
+      "filterTags": ["Kids Activities", "Family Fun", "Educational"],
+      "description": "Family-friendly activities and services for children",
+      "subcategories": [
+        "Kids Activities",
+        "Educational Programs",
+        "Family Entertainment"
+      ]
+    }
+  ]
+}

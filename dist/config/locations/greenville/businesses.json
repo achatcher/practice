@@ -1,0 +1,1325 @@
+{
+  "location": "greenville",
+  "lastUpdated": "2025-01-15T00:00:00Z",
+  "metadata": {
+    "totalBusinesses": 47,
+    "tierDistribution": {
+      "signature": 8,
+      "premier": 15,
+      "curated": 24
+    },
+    "categoryDistribution": {
+      "Dining": 7,
+      "Cocktail Hour": 3,
+      "Shopping": 3,
+      "Spa": 3,
+      "Private Clubs": 3,
+      "Athletics": 3,
+      "Hiking": 3,
+      "Children": 3,
+      "Arts & Culture": 3,
+      "Real Estate": 3
+    }
+  },
+  "businesses": {
+    "signature": [
+      {
+        "id": 1,
+        "name": "The Lazy Goat",
+        "category": "Dining",
+        "subcategory": "Mediterranean",
+        "tier": "signature",
+        "description": "Mediterranean cuisine with stunning views of the Reedy River and Falls Park. Our signature dishes blend traditional flavors with modern techniques.",
+        "logo": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$",
+        "location": {
+          "address": "170 River St, Greenville, SC 29601",
+          "lat": 34.8479,
+          "lng": -82.3967,
+          "neighborhood": "West End"
+        },
+        "contact": {
+          "phone": "(864) 679-5299",
+          "website": "https://thelazygoat.com",
+          "email": "info@thelazygoat.com"
+        },
+        "hours": {
+          "monday": "5:00 PM - 10:00 PM",
+          "tuesday": "5:00 PM - 10:00 PM",
+          "wednesday": "5:00 PM - 10:00 PM",
+          "thursday": "5:00 PM - 10:00 PM",
+          "friday": "5:00 PM - 11:00 PM",
+          "saturday": "5:00 PM - 11:00 PM",
+          "sunday": "5:00 PM - 9:00 PM"
+        },
+        "features": ["Outdoor Seating", "River Views", "Wine Selection", "Private Dining"],
+        "tags": ["romantic", "upscale", "waterfront", "mediterranean"],
+        "rating": 4.8,
+        "reviewCount": 247
+      },
+      {
+        "id": 2,
+        "name": "Halls Chophouse",
+        "category": "Dining",
+        "subcategory": "Steakhouse",
+        "tier": "signature",
+        "description": "Award-winning steakhouse featuring prime cuts, fresh seafood, and an extensive wine collection in an elegant atmosphere.",
+        "logo": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$$",
+        "location": {
+          "address": "25 E Broad St, Greenville, SC 29601",
+          "lat": 34.8520,
+          "lng": -82.3940,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 679-9000",
+          "website": "https://hallschophouse.com",
+          "email": "greenville@hallschophouse.com"
+        },
+        "hours": {
+          "monday": "5:00 PM - 10:00 PM",
+          "tuesday": "5:00 PM - 10:00 PM",
+          "wednesday": "5:00 PM - 10:00 PM",
+          "thursday": "5:00 PM - 10:00 PM",
+          "friday": "5:00 PM - 11:00 PM",
+          "saturday": "5:00 PM - 11:00 PM",
+          "sunday": "5:00 PM - 9:00 PM"
+        },
+        "features": ["Prime Steaks", "Fresh Seafood", "Wine Cellar", "Private Events"],
+        "tags": ["steakhouse", "upscale", "wine", "business dining"],
+        "rating": 4.9,
+        "reviewCount": 412
+      },
+      {
+        "id": 3,
+        "name": "O-Ku Sushi",
+        "category": "Dining",
+        "subcategory": "Japanese",
+        "tier": "signature",
+        "description": "Contemporary Japanese cuisine and sushi bar featuring the freshest fish, innovative rolls, and an extensive sake selection.",
+        "logo": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$$",
+        "location": {
+          "address": "11 N Laurens St, Greenville, SC 29601",
+          "lat": 34.8531,
+          "lng": -82.3992,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 214-7886",
+          "website": "https://o-kusushi.com/greenville",
+          "email": "greenville@o-kusushi.com"
+        },
+        "hours": {
+          "monday": "5:00 PM - 10:00 PM",
+          "tuesday": "5:00 PM - 10:00 PM",
+          "wednesday": "5:00 PM - 10:00 PM",
+          "thursday": "5:00 PM - 10:00 PM",
+          "friday": "5:00 PM - 11:00 PM",
+          "saturday": "5:00 PM - 11:00 PM",
+          "sunday": "5:00 PM - 9:00 PM"
+        },
+        "features": ["Fresh Sushi", "Sake Selection", "Contemporary Japanese", "Sushi Bar"],
+        "tags": ["sushi", "japanese", "sake", "contemporary"],
+        "rating": 4.7,
+        "reviewCount": 445
+      },
+      {
+        "id": 4,
+        "name": "Up on the Roof",
+        "category": "Cocktail Hour",
+        "subcategory": "Rooftop Bar",
+        "tier": "signature",
+        "description": "Sophisticated rooftop bar with panoramic city views, craft cocktails, and small plates. Perfect for sunset drinks and special occasions.",
+        "logo": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$",
+        "location": {
+          "address": "1 E Broad St, Greenville, SC 29601",
+          "lat": 34.8522,
+          "lng": -82.3985,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 298-0550",
+          "website": "https://upontheroof.com",
+          "email": "info@upontheroof.com"
+        },
+        "hours": {
+          "monday": "4:00 PM - 12:00 AM",
+          "tuesday": "4:00 PM - 12:00 AM",
+          "wednesday": "4:00 PM - 12:00 AM",
+          "thursday": "4:00 PM - 12:00 AM",
+          "friday": "4:00 PM - 2:00 AM",
+          "saturday": "4:00 PM - 2:00 AM",
+          "sunday": "4:00 PM - 10:00 PM"
+        },
+        "features": ["Rooftop Views", "Craft Cocktails", "Small Plates", "City Views"],
+        "tags": ["rooftop", "cocktails", "views", "upscale"],
+        "rating": 4.8,
+        "reviewCount": 342,
+        "happyHour": {
+          "available": true,
+          "schedule": "Monday-Friday 4:00 PM - 7:00 PM",
+          "deals": "$2 off craft cocktails, $6 wine by the glass, and discounted small plates"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Falls Park on the Reedy",
+        "category": "Hiking",
+        "subcategory": "City Park",
+        "tier": "signature",
+        "description": "Iconic downtown park featuring beautiful waterfalls, scenic walking trails, and the famous Liberty Bridge with stunning views.",
+        "logo": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "Free",
+        "location": {
+          "address": "601 S Main St, Greenville, SC 29601",
+          "lat": 34.8454,
+          "lng": -82.3989,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 467-4355",
+          "website": "https://fallspark.com",
+          "email": "info@fallspark.com"
+        },
+        "hours": {
+          "monday": "5:00 AM - 12:00 AM",
+          "tuesday": "5:00 AM - 12:00 AM",
+          "wednesday": "5:00 AM - 12:00 AM",
+          "thursday": "5:00 AM - 12:00 AM",
+          "friday": "5:00 AM - 12:00 AM",
+          "saturday": "5:00 AM - 12:00 AM",
+          "sunday": "5:00 AM - 12:00 AM"
+        },
+        "features": ["Waterfalls", "Walking Trails", "Liberty Bridge", "Photography"],
+        "tags": ["park", "waterfalls", "walking", "scenic"],
+        "rating": 4.9,
+        "reviewCount": 1247
+      },
+      {
+        "id": 42,
+        "name": "Monkee's of Greenville",
+        "category": "Shopping",
+        "subcategory": "Boutique",
+        "tier": "signature",
+        "description": "Trendy boutique featuring contemporary women's clothing, accessories, and unique gifts from emerging and established designers.",
+        "logo": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$",
+        "location": {
+          "address": "40 N Main St, Greenville, SC 29601",
+          "lat": 34.8520,
+          "lng": -82.4001,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 232-6655",
+          "website": "https://monkees.com",
+          "email": "greenville@monkees.com"
+        },
+        "hours": {
+          "monday": "10:00 AM - 6:00 PM",
+          "tuesday": "10:00 AM - 6:00 PM",
+          "wednesday": "10:00 AM - 6:00 PM",
+          "thursday": "10:00 AM - 6:00 PM",
+          "friday": "10:00 AM - 8:00 PM",
+          "saturday": "10:00 AM - 8:00 PM",
+          "sunday": "12:00 PM - 5:00 PM"
+        },
+        "features": ["Contemporary Fashion", "Designer Brands", "Accessories", "Gifts"],
+        "tags": ["boutique", "fashion", "women", "contemporary"],
+        "rating": 4.3,
+        "reviewCount": 127
+      },
+      {
+        "id": 24,
+        "name": "Riverplace Spa",
+        "category": "Spa",
+        "subcategory": "Day Spa",
+        "tier": "signature",
+        "description": "Luxurious day spa offering full-service treatments, massages, facials, and wellness services in a serene riverfront setting.",
+        "logo": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$",
+        "location": {
+          "address": "155 Riverplace, Greenville, SC 29601",
+          "lat": 34.8485,
+          "lng": -82.3955,
+          "neighborhood": "West End"
+        },
+        "contact": {
+          "phone": "(864) 297-9309",
+          "website": "https://riverplacespa.com",
+          "email": "info@riverplacespa.com"
+        },
+        "hours": {
+          "monday": "9:00 AM - 7:00 PM",
+          "tuesday": "9:00 AM - 7:00 PM",
+          "wednesday": "9:00 AM - 7:00 PM",
+          "thursday": "9:00 AM - 7:00 PM",
+          "friday": "9:00 AM - 7:00 PM",
+          "saturday": "9:00 AM - 6:00 PM",
+          "sunday": "12:00 PM - 5:00 PM"
+        },
+        "features": ["Full Service Spa", "Massages", "Facials", "Wellness"],
+        "tags": ["spa", "wellness", "massage", "relaxation"],
+        "rating": 4.6,
+        "reviewCount": 298
+      },
+      {
+        "id": 23,
+        "name": "Greenville Country Club",
+        "category": "Private Clubs",
+        "subcategory": "Golf & Country Club",
+        "tier": "signature",
+        "description": "Prestigious private country club featuring championship golf course, fine dining, and exclusive member amenities.",
+        "logo": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "Member Only",
+        "location": {
+          "address": "100 Country Club Dr, Greenville, SC 29607",
+          "lat": 34.8200,
+          "lng": -82.4100,
+          "neighborhood": "North Greenville"
+        },
+        "contact": {
+          "phone": "(864) 242-3500",
+          "website": "https://greenvillecountryclub.com",
+          "email": "membership@gcc.com"
+        },
+        "hours": {
+          "monday": "6:00 AM - 10:00 PM",
+          "tuesday": "6:00 AM - 10:00 PM",
+          "wednesday": "6:00 AM - 10:00 PM",
+          "thursday": "6:00 AM - 10:00 PM",
+          "friday": "6:00 AM - 11:00 PM",
+          "saturday": "6:00 AM - 11:00 PM",
+          "sunday": "7:00 AM - 9:00 PM"
+        },
+        "features": ["Championship Golf", "Tennis Courts", "Fine Dining", "Event Spaces"],
+        "tags": ["golf", "tennis", "private", "exclusive"],
+        "membershipRequired": true,
+        "rating": 4.7,
+        "reviewCount": 89
+      },
+      {
+        "id": 50,
+        "name": "Greenville Tennis Club",
+        "category": "Athletics",
+        "subcategory": "Tennis Club",
+        "tier": "signature",
+        "description": "Premier tennis facility offering professional instruction, competitive leagues, and state-of-the-art courts for players of all levels.",
+        "logo": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$",
+        "location": {
+          "address": "615 Gibbs Shoals Rd, Greenville, SC 29615",
+          "lat": 34.8845,
+          "lng": -82.4234,
+          "neighborhood": "North Greenville"
+        },
+        "contact": {
+          "phone": "(864) 297-1585",
+          "website": "https://greenvilletennisclub.com",
+          "email": "info@greenvilletennisclub.com"
+        },
+        "hours": {
+          "monday": "6:00 AM - 10:00 PM",
+          "tuesday": "6:00 AM - 10:00 PM",
+          "wednesday": "6:00 AM - 10:00 PM",
+          "thursday": "6:00 AM - 10:00 PM",
+          "friday": "6:00 AM - 10:00 PM",
+          "saturday": "7:00 AM - 9:00 PM",
+          "sunday": "8:00 AM - 8:00 PM"
+        },
+        "features": ["Professional Instruction", "Competitive Leagues", "Pro Shop", "Tournament Play"],
+        "tags": ["tennis", "professional", "competitive", "fitness"],
+        "rating": 4.5,
+        "reviewCount": 167
+      },
+      {
+        "id": 43,
+        "name": "The Children's Museum of the Upstate",
+        "category": "Children",
+        "subcategory": "Museum",
+        "tier": "signature",
+        "description": "Interactive children's museum featuring hands-on exhibits, educational programs, and activities designed for kids and families.",
+        "logo": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$",
+        "location": {
+          "address": "300 College St, Greenville, SC 29601",
+          "lat": 34.8508,
+          "lng": -82.3928,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 233-7755",
+          "website": "https://tcmupstate.org",
+          "email": "info@tcmupstate.org"
+        },
+        "hours": {
+          "monday": "Closed",
+          "tuesday": "9:00 AM - 5:00 PM",
+          "wednesday": "9:00 AM - 5:00 PM",
+          "thursday": "9:00 AM - 5:00 PM",
+          "friday": "9:00 AM - 5:00 PM",
+          "saturday": "9:00 AM - 5:00 PM",
+          "sunday": "1:00 PM - 5:00 PM"
+        },
+        "features": ["Interactive Exhibits", "Educational Programs", "Family Activities", "Kids Museum"],
+        "tags": ["children", "museum", "educational", "family"],
+        "rating": 4.5,
+        "reviewCount": 389
+      }
+    ],
+    "premier": [
+      {
+        "id": 20,
+        "name": "Soby's New South Cuisine",
+        "category": "Dining",
+        "subcategory": "Southern",
+        "tier": "premier",
+        "description": "Upscale Southern cuisine featuring locally sourced ingredients and innovative interpretations of Low Country classics in a sophisticated downtown setting.",
+        "logo": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$",
+        "location": {
+          "address": "207 S Main St, Greenville, SC 29601",
+          "lat": 34.8493,
+          "lng": -82.4001,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 232-7007",
+          "website": "https://sobys.com",
+          "email": "info@sobys.com"
+        },
+        "hours": {
+          "monday": "5:30 PM - 9:30 PM",
+          "tuesday": "5:30 PM - 9:30 PM",
+          "wednesday": "5:30 PM - 9:30 PM",
+          "thursday": "5:30 PM - 9:30 PM",
+          "friday": "5:30 PM - 10:30 PM",
+          "saturday": "5:30 PM - 10:30 PM",
+          "sunday": "5:30 PM - 9:30 PM"
+        },
+        "features": ["Southern Cuisine", "Local Ingredients", "Craft Cocktails", "Downtown Location"],
+        "tags": ["southern", "upscale", "local", "innovative"],
+        "rating": 4.6,
+        "reviewCount": 324,
+        "happyHour": {
+          "available": true,
+          "schedule": "Monday-Friday 5:00 PM - 6:30 PM",
+          "deals": "Half-price appetizers, $2 off wine by the glass, and discounted southern small plates"
+        }
+      },
+      {
+        "id": 21,
+        "name": "Jianna",
+        "category": "Dining",
+        "subcategory": "Italian",
+        "tier": "premier",
+        "description": "Authentic Italian dining with handmade pasta, wood-fired pizzas, and an impressive wine list in a warm, inviting atmosphere.",
+        "logo": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1555126634-323283e090fa?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$",
+        "location": {
+          "address": "301 S Main St, Greenville, SC 29601",
+          "lat": 34.8475,
+          "lng": -82.4001,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 527-5299",
+          "website": "https://jiannarestaurant.com",
+          "email": "info@jiannarestaurant.com"
+        },
+        "hours": {
+          "monday": "5:00 PM - 10:00 PM",
+          "tuesday": "5:00 PM - 10:00 PM",
+          "wednesday": "5:00 PM - 10:00 PM",
+          "thursday": "5:00 PM - 10:00 PM",
+          "friday": "5:00 PM - 11:00 PM",
+          "saturday": "5:00 PM - 11:00 PM",
+          "sunday": "5:00 PM - 9:00 PM"
+        },
+        "features": ["Handmade Pasta", "Wood-Fired Pizza", "Italian Wine", "Romantic"],
+        "tags": ["italian", "pasta", "pizza", "wine"],
+        "rating": 4.7,
+        "reviewCount": 287,
+        "happyHour": {
+          "available": true,
+          "schedule": "Wednesday-Friday 5:00 PM - 6:30 PM",
+          "deals": "Half-price wine by the glass, $12 wood-fired pizzas, and discounted antipasti"
+        }
+      },
+      {
+        "id": 22,
+        "name": "The Davenport Rooftop Lounge",
+        "category": "Cocktail Hour",
+        "subcategory": "Cocktail Lounge",
+        "tier": "premier",
+        "description": "Elegant cocktail lounge atop the historic Davenport Hotel, featuring craft cocktails, live music, and sophisticated atmosphere.",
+        "logo": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$",
+        "location": {
+          "address": "61 W Broad St, Greenville, SC 29601",
+          "lat": 34.8518,
+          "lng": -82.4019,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 552-9200",
+          "website": "https://davenporthotel.com",
+          "email": "rooftop@davenporthotel.com"
+        },
+        "hours": {
+          "monday": "5:00 PM - 11:00 PM",
+          "tuesday": "5:00 PM - 11:00 PM",
+          "wednesday": "5:00 PM - 11:00 PM",
+          "thursday": "5:00 PM - 11:00 PM",
+          "friday": "5:00 PM - 12:00 AM",
+          "saturday": "5:00 PM - 12:00 AM",
+          "sunday": "5:00 PM - 10:00 PM"
+        },
+        "features": ["Historic Hotel", "Live Music", "Craft Cocktails", "Elegant"],
+        "tags": ["historic", "cocktails", "live music", "elegant"],
+        "rating": 4.6,
+        "reviewCount": 234,
+        "happyHour": {
+          "available": true,
+          "schedule": "Tuesday-Thursday 5:00 PM - 7:00 PM",
+          "deals": "$3 off premium cocktails, $8 wine selections, and complimentary appetizers"
+        }
+      },
+      {
+        "id": 23,
+        "name": "Greenville Country Club",
+        "category": "Private Clubs",
+        "subcategory": "Golf & Country Club",
+        "tier": "premier",
+        "description": "Prestigious private country club featuring championship golf course, fine dining, and exclusive member amenities.",
+        "logo": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "Member Only",
+        "location": {
+          "address": "100 Country Club Dr, Greenville, SC 29607",
+          "lat": 34.8200,
+          "lng": -82.4100,
+          "neighborhood": "North Greenville"
+        },
+        "contact": {
+          "phone": "(864) 242-3500",
+          "website": "https://greenvillecountryclub.com",
+          "email": "membership@gcc.com"
+        },
+        "hours": {
+          "monday": "6:00 AM - 10:00 PM",
+          "tuesday": "6:00 AM - 10:00 PM",
+          "wednesday": "6:00 AM - 10:00 PM",
+          "thursday": "6:00 AM - 10:00 PM",
+          "friday": "6:00 AM - 11:00 PM",
+          "saturday": "6:00 AM - 11:00 PM",
+          "sunday": "7:00 AM - 9:00 PM"
+        },
+        "features": ["Championship Golf", "Tennis Courts", "Fine Dining", "Event Spaces"],
+        "tags": ["golf", "tennis", "private", "exclusive"],
+        "membershipRequired": true,
+        "rating": 4.7,
+        "reviewCount": 89
+      }
+    ],
+    "curated": [
+      {
+        "id": 40,
+        "name": "Nose Dive Gastropub",
+        "category": "Dining",
+        "subcategory": "Gastropub",
+        "tier": "curated",
+        "description": "Creative gastropub featuring elevated pub fare, craft cocktails, and an extensive selection of local and imported beers.",
+        "logo": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$",
+        "location": {
+          "address": "116 N Main St, Greenville, SC 29601",
+          "lat": 34.8532,
+          "lng": -82.4001,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 559-5333",
+          "website": "https://nosedivegastropub.com",
+          "email": "info@nosedivegastropub.com"
+        },
+        "hours": {
+          "monday": "4:00 PM - 12:00 AM",
+          "tuesday": "4:00 PM - 12:00 AM",
+          "wednesday": "4:00 PM - 12:00 AM",
+          "thursday": "4:00 PM - 12:00 AM",
+          "friday": "4:00 PM - 2:00 AM",
+          "saturday": "12:00 PM - 2:00 AM",
+          "sunday": "12:00 PM - 10:00 PM"
+        },
+        "features": ["Craft Beer", "Gastropub Fare", "Late Night", "Downtown"],
+        "tags": ["gastropub", "craft beer", "casual", "downtown"],
+        "rating": 4.4,
+        "reviewCount": 198,
+        "happyHour": {
+          "available": true,
+          "schedule": "Monday-Friday 4:00 PM - 7:00 PM",
+          "deals": "$1 off draft beers, $3 well drinks, and half-price wings and appetizers"
+        }
+      },
+      {
+        "id": 41,
+        "name": "The Swamp Rabbit Cafe & Grocery",
+        "category": "Dining",
+        "subcategory": "Casual Dining",
+        "tier": "curated",
+        "description": "Farm-to-table cafe featuring locally sourced ingredients, artisan coffee, and fresh market goods in the Travelers Rest area.",
+        "logo": "https://images.unsplash.com/photo-1481833761820-0509d3217039?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1481833761820-0509d3217039?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1481833761820-0509d3217039?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$",
+        "location": {
+          "address": "6 N Main St, Travelers Rest, SC 29690",
+          "lat": 34.9676,
+          "lng": -82.4343,
+          "neighborhood": "Travelers Rest"
+        },
+        "contact": {
+          "phone": "(864) 610-9496",
+          "website": "https://theswamprabbitcafe.com",
+          "email": "info@theswamprabbitcafe.com"
+        },
+        "hours": {
+          "monday": "7:00 AM - 3:00 PM",
+          "tuesday": "7:00 AM - 3:00 PM",
+          "wednesday": "7:00 AM - 3:00 PM",
+          "thursday": "7:00 AM - 3:00 PM",
+          "friday": "7:00 AM - 3:00 PM",
+          "saturday": "8:00 AM - 3:00 PM",
+          "sunday": "8:00 AM - 3:00 PM"
+        },
+        "features": ["Farm-to-Table", "Local Ingredients", "Artisan Coffee", "Market"],
+        "tags": ["farm-to-table", "coffee", "local", "healthy"],
+        "rating": 4.5,
+        "reviewCount": 156
+      },
+      {
+        "id": 43,
+        "name": "The Children's Museum of the Upstate",
+        "category": "Children",
+        "subcategory": "Museum",
+        "tier": "curated",
+        "description": "Interactive children's museum featuring hands-on exhibits, educational programs, and activities designed for kids and families.",
+        "logo": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$",
+        "location": {
+          "address": "300 College St, Greenville, SC 29601",
+          "lat": 34.8508,
+          "lng": -82.3928,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 233-7755",
+          "website": "https://tcmupstate.org",
+          "email": "info@tcmupstate.org"
+        },
+        "hours": {
+          "monday": "Closed",
+          "tuesday": "9:00 AM - 5:00 PM",
+          "wednesday": "9:00 AM - 5:00 PM",
+          "thursday": "9:00 AM - 5:00 PM",
+          "friday": "9:00 AM - 5:00 PM",
+          "saturday": "9:00 AM - 5:00 PM",
+          "sunday": "1:00 PM - 5:00 PM"
+        },
+        "features": ["Interactive Exhibits", "Educational Programs", "Family Activities", "Kids Museum"],
+        "tags": ["children", "museum", "educational", "family"],
+        "rating": 4.5,
+        "reviewCount": 389
+      },
+      {
+        "id": 44,
+        "name": "Fluor Field at the West End",
+        "category": "Athletics",
+        "subcategory": "Baseball Stadium",
+        "tier": "curated",
+        "description": "Home to the Greenville Drive minor league baseball team, featuring a replica of Fenway Park's Green Monster and family-friendly entertainment.",
+        "logo": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$",
+        "location": {
+          "address": "945 S Main St, Greenville, SC 29601",
+          "lat": 34.8398,
+          "lng": -82.3989,
+          "neighborhood": "West End"
+        },
+        "contact": {
+          "phone": "(864) 240-4528",
+          "website": "https://greenvilledrive.com",
+          "email": "info@greenvilledrive.com"
+        },
+        "hours": {
+          "monday": "9:00 AM - 5:00 PM",
+          "tuesday": "9:00 AM - 5:00 PM",
+          "wednesday": "9:00 AM - 5:00 PM",
+          "thursday": "9:00 AM - 5:00 PM",
+          "friday": "9:00 AM - 5:00 PM",
+          "saturday": "Game Days Only",
+          "sunday": "Game Days Only"
+        },
+        "features": ["Minor League Baseball", "Green Monster Replica", "Family Entertainment", "Concessions"],
+        "tags": ["baseball", "sports", "family", "entertainment"],
+        "rating": 4.7,
+        "reviewCount": 567
+      },
+      {
+        "id": 45,
+        "name": "Cocktail Salon",
+        "category": "Cocktail Hour",
+        "subcategory": "Craft Cocktails",
+        "tier": "curated",
+        "description": "Intimate craft cocktail lounge featuring house-made spirits, artisanal cocktails, and a sophisticated speakeasy atmosphere.",
+        "logo": "https://images.unsplash.com/photo-1536935338788-846bb9981813?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1536935338788-846bb9981813?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$",
+        "location": {
+          "address": "518 S Main St, Greenville, SC 29601",
+          "lat": 34.8432,
+          "lng": -82.4001,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 271-3354",
+          "website": "https://cocktailsalon.com",
+          "email": "info@cocktailsalon.com"
+        },
+        "hours": {
+          "monday": "Closed",
+          "tuesday": "5:00 PM - 12:00 AM",
+          "wednesday": "5:00 PM - 12:00 AM",
+          "thursday": "5:00 PM - 12:00 AM",
+          "friday": "5:00 PM - 2:00 AM",
+          "saturday": "5:00 PM - 2:00 AM",
+          "sunday": "5:00 PM - 11:00 PM"
+        },
+        "features": ["House-made Spirits", "Craft Cocktails", "Speakeasy Atmosphere", "Small Plates"],
+        "tags": ["cocktails", "craft", "speakeasy", "intimate"],
+        "rating": 4.5,
+        "reviewCount": 156,
+        "happyHour": {
+          "available": true,
+          "schedule": "Tuesday-Thursday 5:00 PM - 7:00 PM",
+          "deals": "$2 off house cocktails, $4 off premium spirits, and complimentary small plates"
+        }
+      },
+      {
+        "id": 46,
+        "name": "Vida Spa",
+        "category": "Spa",
+        "subcategory": "Medical Spa",
+        "tier": "curated",
+        "description": "Modern medical spa offering advanced aesthetic treatments, rejuvenating facials, and wellness therapies in a luxurious setting.",
+        "logo": "https://images.unsplash.com/photo-1591343395082-e120087004b4?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1591343395082-e120087004b4?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1591343395082-e120087004b4?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$",
+        "location": {
+          "address": "125 Verdae Blvd, Greenville, SC 29607",
+          "lat": 34.8123,
+          "lng": -82.3578,
+          "neighborhood": "Verdae"
+        },
+        "contact": {
+          "phone": "(864) 770-0525",
+          "website": "https://vidaspa.com",
+          "email": "info@vidaspa.com"
+        },
+        "hours": {
+          "monday": "9:00 AM - 6:00 PM",
+          "tuesday": "9:00 AM - 6:00 PM",
+          "wednesday": "9:00 AM - 6:00 PM",
+          "thursday": "9:00 AM - 6:00 PM",
+          "friday": "9:00 AM - 6:00 PM",
+          "saturday": "9:00 AM - 5:00 PM",
+          "sunday": "Closed"
+        },
+        "features": ["Medical Treatments", "Anti-Aging", "Facials", "Body Treatments"],
+        "tags": ["medical spa", "aesthetic", "anti-aging", "luxury"],
+        "rating": 4.6,
+        "reviewCount": 189
+      },
+      {
+        "id": 47,
+        "name": "The Spa at The Westin Poinsett",
+        "category": "Spa",
+        "subcategory": "Hotel Spa",
+        "tier": "premier",
+        "description": "Elegant hotel spa offering signature treatments, therapeutic massages, and rejuvenating experiences in the heart of downtown Greenville.",
+        "logo": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$$",
+        "location": {
+          "address": "120 S Main St, Greenville, SC 29601",
+          "lat": 34.8501,
+          "lng": -82.4001,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 421-9700",
+          "website": "https://westinpoinsett.com/spa",
+          "email": "spa@westinpoinsett.com"
+        },
+        "hours": {
+          "monday": "10:00 AM - 7:00 PM",
+          "tuesday": "10:00 AM - 7:00 PM",
+          "wednesday": "10:00 AM - 7:00 PM",
+          "thursday": "10:00 AM - 7:00 PM",
+          "friday": "10:00 AM - 7:00 PM",
+          "saturday": "9:00 AM - 7:00 PM",
+          "sunday": "9:00 AM - 6:00 PM"
+        },
+        "features": ["Hotel Spa", "Signature Treatments", "Luxury Amenities", "Downtown Location"],
+        "tags": ["hotel spa", "luxury", "signature treatments", "downtown"],
+        "rating": 4.5,
+        "reviewCount": 234
+      },
+      {
+        "id": 48,
+        "name": "M. Judson Booksellers & Storytellers",
+        "category": "Shopping",
+        "subcategory": "Bookstore",
+        "tier": "curated",
+        "description": "Independent bookstore featuring curated selections, local authors, and community events in a cozy downtown setting.",
+        "logo": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$",
+        "location": {
+          "address": "110 S Main St, Greenville, SC 29601",
+          "lat": 34.8502,
+          "lng": -82.4001,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 235-6278",
+          "website": "https://mjudsonbooks.com",
+          "email": "info@mjudsonbooks.com"
+        },
+        "hours": {
+          "monday": "10:00 AM - 6:00 PM",
+          "tuesday": "10:00 AM - 6:00 PM",
+          "wednesday": "10:00 AM - 6:00 PM",
+          "thursday": "10:00 AM - 6:00 PM",
+          "friday": "10:00 AM - 8:00 PM",
+          "saturday": "10:00 AM - 8:00 PM",
+          "sunday": "1:00 PM - 5:00 PM"
+        },
+        "features": ["Independent Bookstore", "Local Authors", "Community Events", "Curated Selection"],
+        "tags": ["bookstore", "independent", "local", "community"],
+        "rating": 4.8,
+        "reviewCount": 342
+      },
+      {
+        "id": 49,
+        "name": "Mast General Store",
+        "category": "Shopping",
+        "subcategory": "General Store",
+        "tier": "curated",
+        "description": "Historic general store offering outdoor gear, local goods, clothing, and gifts with old-world charm and southern hospitality.",
+        "logo": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$",
+        "location": {
+          "address": "111 N Main St, Greenville, SC 29601",
+          "lat": 34.8533,
+          "lng": -82.4001,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 235-1883",
+          "website": "https://mastgeneralstore.com",
+          "email": "greenville@mastgeneralstore.com"
+        },
+        "hours": {
+          "monday": "10:00 AM - 7:00 PM",
+          "tuesday": "10:00 AM - 7:00 PM",
+          "wednesday": "10:00 AM - 7:00 PM",
+          "thursday": "10:00 AM - 7:00 PM",
+          "friday": "10:00 AM - 8:00 PM",
+          "saturday": "10:00 AM - 8:00 PM",
+          "sunday": "12:00 PM - 6:00 PM"
+        },
+        "features": ["Outdoor Gear", "Local Goods", "Historic Charm", "Gifts"],
+        "tags": ["general store", "outdoor", "historic", "local goods"],
+        "rating": 4.6,
+        "reviewCount": 278
+      },
+      {
+        "id": 50,
+        "name": "Greenville Tennis Club",
+        "category": "Athletics",
+        "subcategory": "Tennis Club",
+        "tier": "premier",
+        "description": "Premier tennis facility offering professional instruction, competitive leagues, and state-of-the-art courts for players of all levels.",
+        "logo": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$",
+        "location": {
+          "address": "615 Gibbs Shoals Rd, Greenville, SC 29615",
+          "lat": 34.8845,
+          "lng": -82.4234,
+          "neighborhood": "North Greenville"
+        },
+        "contact": {
+          "phone": "(864) 297-1585",
+          "website": "https://greenvilletennisclub.com",
+          "email": "info@greenvilletennisclub.com"
+        },
+        "hours": {
+          "monday": "6:00 AM - 10:00 PM",
+          "tuesday": "6:00 AM - 10:00 PM",
+          "wednesday": "6:00 AM - 10:00 PM",
+          "thursday": "6:00 AM - 10:00 PM",
+          "friday": "6:00 AM - 10:00 PM",
+          "saturday": "7:00 AM - 9:00 PM",
+          "sunday": "8:00 AM - 8:00 PM"
+        },
+        "features": ["Professional Instruction", "Competitive Leagues", "Pro Shop", "Tournament Play"],
+        "tags": ["tennis", "professional", "competitive", "fitness"],
+        "rating": 4.5,
+        "reviewCount": 167
+      },
+      {
+        "id": 51,
+        "name": "CrossFit Greenville",
+        "category": "Athletics",
+        "subcategory": "Fitness Studio",
+        "tier": "curated",
+        "description": "High-intensity fitness training facility offering CrossFit classes, personal training, and nutrition coaching for all fitness levels.",
+        "logo": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$",
+        "location": {
+          "address": "1320 Woodruff Rd, Greenville, SC 29607",
+          "lat": 34.8234,
+          "lng": -82.3456,
+          "neighborhood": "Woodruff Road"
+        },
+        "contact": {
+          "phone": "(864) 551-2739",
+          "website": "https://crossfitgreenville.com",
+          "email": "info@crossfitgreenville.com"
+        },
+        "hours": {
+          "monday": "5:00 AM - 8:00 PM",
+          "tuesday": "5:00 AM - 8:00 PM",
+          "wednesday": "5:00 AM - 8:00 PM",
+          "thursday": "5:00 AM - 8:00 PM",
+          "friday": "5:00 AM - 7:00 PM",
+          "saturday": "8:00 AM - 12:00 PM",
+          "sunday": "9:00 AM - 11:00 AM"
+        },
+        "features": ["CrossFit Classes", "Personal Training", "Nutrition Coaching", "Community"],
+        "tags": ["crossfit", "fitness", "training", "community"],
+        "rating": 4.7,
+        "reviewCount": 145
+      },
+      {
+        "id": 52,
+        "name": "Roper Mountain Science Center",
+        "category": "Children",
+        "subcategory": "Science Center",
+        "tier": "curated",
+        "description": "Interactive science center and planetarium offering hands-on exhibits, educational programs, and outdoor nature trails for families.",
+        "logo": "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$",
+        "location": {
+          "address": "402 Roper Mountain Rd, Greenville, SC 29615",
+          "lat": 34.8678,
+          "lng": -82.3234,
+          "neighborhood": "Roper Mountain"
+        },
+        "contact": {
+          "phone": "(864) 355-8900",
+          "website": "https://ropermountain.org",
+          "email": "info@ropermountain.org"
+        },
+        "hours": {
+          "monday": "Closed",
+          "tuesday": "Closed",
+          "wednesday": "10:00 AM - 5:00 PM",
+          "thursday": "10:00 AM - 5:00 PM",
+          "friday": "10:00 AM - 5:00 PM",
+          "saturday": "10:00 AM - 5:00 PM",
+          "sunday": "1:00 PM - 5:00 PM"
+        },
+        "features": ["Interactive Exhibits", "Planetarium", "Nature Trails", "Educational Programs"],
+        "tags": ["science", "planetarium", "educational", "nature"],
+        "rating": 4.4,
+        "reviewCount": 298
+      },
+      {
+        "id": 53,
+        "name": "Frankie's Fun Park",
+        "category": "Children",
+        "subcategory": "Family Entertainment",
+        "tier": "curated",
+        "description": "Family entertainment center featuring mini golf, go-karts, arcade games, and birthday party facilities for all ages.",
+        "logo": "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$",
+        "location": {
+          "address": "45 Park Woodruff Dr, Greenville, SC 29607",
+          "lat": 34.8123,
+          "lng": -82.3567,
+          "neighborhood": "Woodruff Road"
+        },
+        "contact": {
+          "phone": "(864) 297-5437",
+          "website": "https://frankiesfunpark.com",
+          "email": "greenville@frankiesfunpark.com"
+        },
+        "hours": {
+          "monday": "4:00 PM - 9:00 PM",
+          "tuesday": "4:00 PM - 9:00 PM",
+          "wednesday": "4:00 PM - 9:00 PM",
+          "thursday": "4:00 PM - 9:00 PM",
+          "friday": "4:00 PM - 11:00 PM",
+          "saturday": "10:00 AM - 11:00 PM",
+          "sunday": "12:00 PM - 9:00 PM"
+        },
+        "features": ["Mini Golf", "Go-Karts", "Arcade Games", "Birthday Parties"],
+        "tags": ["family fun", "arcade", "go-karts", "mini golf"],
+        "rating": 4.3,
+        "reviewCount": 456
+      },
+      {
+        "id": 54,
+        "name": "Greenville County Museum of Art",
+        "category": "Arts & Culture",
+        "subcategory": "Art Museum",
+        "tier": "premier",
+        "description": "Premier art museum featuring American art collections, rotating exhibitions, and educational programs in the heart of downtown.",
+        "logo": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "Free",
+        "location": {
+          "address": "420 College St, Greenville, SC 29601",
+          "lat": 34.8508,
+          "lng": -82.3923,
+          "neighborhood": "Heritage Green"
+        },
+        "contact": {
+          "phone": "(864) 271-7570",
+          "website": "https://gcma.org",
+          "email": "info@gcma.org"
+        },
+        "hours": {
+          "monday": "Closed",
+          "tuesday": "10:00 AM - 6:00 PM",
+          "wednesday": "10:00 AM - 6:00 PM",
+          "thursday": "10:00 AM - 6:00 PM",
+          "friday": "10:00 AM - 6:00 PM",
+          "saturday": "10:00 AM - 6:00 PM",
+          "sunday": "1:00 PM - 5:00 PM"
+        },
+        "features": ["American Art Collection", "Rotating Exhibitions", "Educational Programs", "Free Admission"],
+        "tags": ["art museum", "american art", "cultural", "educational"],
+        "rating": 4.6,
+        "reviewCount": 234
+      },
+      {
+        "id": 55,
+        "name": "Peace Center for the Performing Arts",
+        "category": "Arts & Culture",
+        "subcategory": "Performing Arts",
+        "tier": "signature",
+        "description": "World-class performing arts venue hosting Broadway shows, concerts, and cultural events with stunning architecture and acoustics.",
+        "logo": "https://images.unsplash.com/photo-1507924538820-ede94a04019d?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1507924538820-ede94a04019d?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1507924538820-ede94a04019d?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$$",
+        "location": {
+          "address": "300 S Main St, Greenville, SC 29601",
+          "lat": 34.8476,
+          "lng": -82.4001,
+          "neighborhood": "Downtown"
+        },
+        "contact": {
+          "phone": "(864) 467-3000",
+          "website": "https://peacecenter.org",
+          "email": "info@peacecenter.org"
+        },
+        "hours": {
+          "monday": "10:00 AM - 6:00 PM",
+          "tuesday": "10:00 AM - 6:00 PM",
+          "wednesday": "10:00 AM - 6:00 PM",
+          "thursday": "10:00 AM - 6:00 PM",
+          "friday": "10:00 AM - 6:00 PM",
+          "saturday": "10:00 AM - 8:00 PM",
+          "sunday": "Event Days Only"
+        },
+        "features": ["Broadway Shows", "Concerts", "World-Class Acoustics", "Stunning Architecture"],
+        "tags": ["performing arts", "broadway", "concerts", "cultural events"],
+        "rating": 4.8,
+        "reviewCount": 892
+      },
+      {
+        "id": 56,
+        "name": "Centre Stage",
+        "category": "Arts & Culture",
+        "subcategory": "Community Theater",
+        "tier": "curated",
+        "description": "Community theater company producing professional-quality plays, musicals, and special events in an intimate downtown venue.",
+        "logo": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1518173946687-a4c8892bbd9f?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$$",
+        "location": {
+          "address": "501 River St, Greenville, SC 29601",
+          "lat": 34.8467,
+          "lng": -82.3956,
+          "neighborhood": "West End"
+        },
+        "contact": {
+          "phone": "(864) 233-6733",
+          "website": "https://centrestage.org",
+          "email": "info@centrestage.org"
+        },
+        "hours": {
+          "monday": "12:00 PM - 5:00 PM",
+          "tuesday": "12:00 PM - 5:00 PM",
+          "wednesday": "12:00 PM - 5:00 PM",
+          "thursday": "12:00 PM - 5:00 PM",
+          "friday": "12:00 PM - 8:00 PM",
+          "saturday": "12:00 PM - 8:00 PM",
+          "sunday": "Show Days Only"
+        },
+        "features": ["Community Theater", "Professional Quality", "Intimate Venue", "Special Events"],
+        "tags": ["community theater", "plays", "musicals", "intimate"],
+        "rating": 4.5,
+        "reviewCount": 156
+      },
+      {
+        "id": 57,
+        "name": "Keller Williams Luxury International",
+        "category": "Real Estate",
+        "subcategory": "Luxury Real Estate",
+        "tier": "signature",
+        "description": "Premier luxury real estate firm specializing in high-end properties, estate homes, and exclusive listings throughout the Greenville area.",
+        "logo": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "Luxury Market",
+        "location": {
+          "address": "15 Mills Ave, Greenville, SC 29605",
+          "lat": 34.8567,
+          "lng": -82.4123,
+          "neighborhood": "Augusta Road"
+        },
+        "contact": {
+          "phone": "(864) 232-7000",
+          "website": "https://kwluxury.com/greenville",
+          "email": "luxury@kwgreenville.com"
+        },
+        "hours": {
+          "monday": "9:00 AM - 6:00 PM",
+          "tuesday": "9:00 AM - 6:00 PM",
+          "wednesday": "9:00 AM - 6:00 PM",
+          "thursday": "9:00 AM - 6:00 PM",
+          "friday": "9:00 AM - 6:00 PM",
+          "saturday": "10:00 AM - 4:00 PM",
+          "sunday": "By Appointment"
+        },
+        "features": ["Luxury Properties", "Estate Homes", "Exclusive Listings", "Expert Service"],
+        "tags": ["luxury real estate", "estates", "exclusive", "premium"],
+        "rating": 4.7,
+        "reviewCount": 189
+      },
+      {
+        "id": 58,
+        "name": "The Cliffs Communities",
+        "category": "Real Estate",
+        "subcategory": "Resort Community",
+        "tier": "signature",
+        "description": "Exclusive mountain and lake resort communities featuring luxury homes, championship golf courses, and world-class amenities.",
+        "logo": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1502005229762-cf1b2da7c5d6?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "Ultra Luxury",
+        "location": {
+          "address": "1000 Cliffs Dr, Travelers Rest, SC 29690",
+          "lat": 34.9876,
+          "lng": -82.4567,
+          "neighborhood": "Travelers Rest"
+        },
+        "contact": {
+          "phone": "(864) 249-4000",
+          "website": "https://cliffscommunities.com",
+          "email": "info@cliffscommunities.com"
+        },
+        "hours": {
+          "monday": "9:00 AM - 5:00 PM",
+          "tuesday": "9:00 AM - 5:00 PM",
+          "wednesday": "9:00 AM - 5:00 PM",
+          "thursday": "9:00 AM - 5:00 PM",
+          "friday": "9:00 AM - 5:00 PM",
+          "saturday": "10:00 AM - 5:00 PM",
+          "sunday": "12:00 PM - 5:00 PM"
+        },
+        "features": ["Resort Communities", "Championship Golf", "Mountain Views", "Luxury Amenities"],
+        "tags": ["resort community", "luxury homes", "golf", "mountain"],
+        "rating": 4.9,
+        "reviewCount": 245
+      },
+      {
+        "id": 59,
+        "name": "Greystone Golf & Country Club",
+        "category": "Private Clubs",
+        "subcategory": "Golf & Country Club",
+        "tier": "premier",
+        "description": "Exclusive private club featuring an 18-hole championship golf course, tennis facilities, and elegant dining in a prestigious setting.",
+        "logo": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "Member Only",
+        "location": {
+          "address": "1000 Honors Dr, Greer, SC 29651",
+          "lat": 34.9123,
+          "lng": -82.2567,
+          "neighborhood": "Greer"
+        },
+        "contact": {
+          "phone": "(864) 848-9700",
+          "website": "https://greystonegcc.com",
+          "email": "membership@greystonegcc.com"
+        },
+        "hours": {
+          "monday": "6:00 AM - 9:00 PM",
+          "tuesday": "6:00 AM - 9:00 PM",
+          "wednesday": "6:00 AM - 9:00 PM",
+          "thursday": "6:00 AM - 9:00 PM",
+          "friday": "6:00 AM - 10:00 PM",
+          "saturday": "6:00 AM - 10:00 PM",
+          "sunday": "7:00 AM - 9:00 PM"
+        },
+        "features": ["Championship Golf Course", "Tennis Facilities", "Fine Dining", "Private Events"],
+        "tags": ["private club", "golf", "tennis", "exclusive"],
+        "membershipRequired": true,
+        "rating": 4.8,
+        "reviewCount": 134
+      },
+      {
+        "id": 60,
+        "name": "Paris Mountain State Park",
+        "category": "Hiking",
+        "subcategory": "State Park",
+        "tier": "curated",
+        "description": "Beautiful state park offering hiking trails, swimming areas, fishing, and outdoor recreation in a scenic mountain setting.",
+        "logo": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "$",
+        "location": {
+          "address": "2401 State Park Rd, Greenville, SC 29609",
+          "lat": 34.9012,
+          "lng": -82.3789,
+          "neighborhood": "North Greenville"
+        },
+        "contact": {
+          "phone": "(864) 244-5565",
+          "website": "https://southcarolinaparks.com/paris-mountain",
+          "email": "parismountain@scprt.com"
+        },
+        "hours": {
+          "monday": "8:00 AM - 8:00 PM",
+          "tuesday": "8:00 AM - 8:00 PM",
+          "wednesday": "8:00 AM - 8:00 PM",
+          "thursday": "8:00 AM - 8:00 PM",
+          "friday": "8:00 AM - 8:00 PM",
+          "saturday": "8:00 AM - 8:00 PM",
+          "sunday": "8:00 AM - 8:00 PM"
+        },
+        "features": ["Hiking Trails", "Swimming Lake", "Fishing", "Camping"],
+        "tags": ["state park", "hiking", "swimming", "outdoor recreation"],
+        "rating": 4.6,
+        "reviewCount": 678
+      },
+      {
+        "id": 61,
+        "name": "Swamp Rabbit Trail",
+        "category": "Hiking",
+        "subcategory": "Rail Trail",
+        "tier": "curated",
+        "description": "Popular multi-use trail stretching 22 miles from Greenville to Travelers Rest, perfect for walking, running, and cycling.",
+        "logo": "https://images.unsplash.com/photo-1502780402662-acc01917ee90?w=200&h=200&fit=crop&crop=center",
+        "image": "https://images.unsplash.com/photo-1502780402662-acc01917ee90?w=400&h=400&fit=crop&crop=center",
+        "heroImage": "https://images.unsplash.com/photo-1502780402662-acc01917ee90?w=800&h=400&fit=crop&crop=center",
+        "priceRange": "Free",
+        "location": {
+          "address": "Cleveland Park, Greenville, SC 29607",
+          "lat": 34.8345,
+          "lng": -82.3712,
+          "neighborhood": "Cleveland Park"
+        },
+        "contact": {
+          "phone": "(864) 467-4350",
+          "website": "https://greenvillesc.gov/swamprabbit",
+          "email": "parks@greenvillesc.gov"
+        },
+        "hours": {
+          "monday": "5:00 AM - 11:00 PM",
+          "tuesday": "5:00 AM - 11:00 PM",
+          "wednesday": "5:00 AM - 11:00 PM",
+          "thursday": "5:00 AM - 11:00 PM",
+          "friday": "5:00 AM - 11:00 PM",
+          "saturday": "5:00 AM - 11:00 PM",
+          "sunday": "5:00 AM - 11:00 PM"
+        },
+        "features": ["22-Mile Trail", "Multi-Use", "Scenic Views", "Rest Areas"],
+        "tags": ["trail", "walking", "cycling", "multi-use"],
+        "rating": 4.7,
+        "reviewCount": 834
+      }
+    ]
+  }
+}

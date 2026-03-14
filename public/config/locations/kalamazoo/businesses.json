@@ -1,0 +1,588 @@
+{
+  "location": "kalamazoo",
+  "city": "Kalamazoo",
+  "state": "Michigan",
+  "lastUpdated": "2026-03-13T00:00:00Z",
+  "businesses": [
+    {
+      "id": 1,
+      "name": "The Union Cabaret & Grille",
+      "category": "happy-hours",
+      "subcategory": "Bar & Grill",
+      "tier": "featured",
+      "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1525268323446-0505b6fe7778?w=800&h=400&fit=crop&crop=center",
+      "description": "One of Kalamazoo's iconic live music venues and bars. Great drinks, great bands, great vibes right in the heart of downtown.",
+      "contact": {
+        "phone": "(269) 553-0011",
+        "address": "125 S Kalamazoo Mall, Kalamazoo, MI 49007",
+        "website": "https://theunionkzoo.com"
+      },
+      "location": {
+        "lat": 42.2917,
+        "lng": -85.5841,
+        "neighborhood": "Downtown"
+      },
+      "happyHour": {
+        "available": true,
+        "schedule": "Mon–Fri 4–7 PM",
+        "days": {
+          "monday":    { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$2 off all drafts, $1 off wells" },
+          "tuesday":   { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$2 off all drafts, $1 off wells" },
+          "wednesday": { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$2 off all drafts, $1 off wells" },
+          "thursday":  { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$2 off all drafts, $1 off wells" },
+          "friday":    { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$2 off all drafts, $1 off wells" },
+          "saturday":  { "available": false },
+          "sunday":    { "available": false }
+        }
+      },
+      "features": {
+        "live_music": true,
+        "outdoor_patio": false,
+        "sports_tv": true,
+        "food_menu": true,
+        "late_night": true
+      },
+      "tags": ["live-music", "downtown", "bar-grill"],
+      "priceRange": "$$"
+    },
+    {
+      "id": 2,
+      "name": "Bells Eccentric Café",
+      "category": "happy-hours",
+      "subcategory": "Craft Brewery",
+      "tier": "featured",
+      "image": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1559526324-593bc073d938?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1537047902294-62a40c20a6ae?w=800&h=400&fit=crop&crop=center",
+      "description": "World-famous Bell's Brewery taproom. Iconic craft beers on tap, legendary beer garden, and live music. A must-visit Kalamazoo institution.",
+      "contact": {
+        "phone": "(269) 382-2338",
+        "address": "355 E Kalamazoo Ave, Kalamazoo, MI 49007",
+        "website": "https://bellsbeer.com"
+      },
+      "location": {
+        "lat": 42.2928,
+        "lng": -85.5812,
+        "neighborhood": "Downtown"
+      },
+      "happyHour": {
+        "available": true,
+        "schedule": "Tues–Fri 3–6 PM",
+        "days": {
+          "monday":    { "available": false },
+          "tuesday":   { "available": true, "startTime": "3:00 PM", "endTime": "6:00 PM", "deals": "$1 off pints, $5 beer flights" },
+          "wednesday": { "available": true, "startTime": "3:00 PM", "endTime": "6:00 PM", "deals": "$1 off pints, $5 beer flights" },
+          "thursday":  { "available": true, "startTime": "3:00 PM", "endTime": "6:00 PM", "deals": "$1 off pints, $5 beer flights" },
+          "friday":    { "available": true, "startTime": "3:00 PM", "endTime": "6:00 PM", "deals": "$1 off pints, $5 beer flights" },
+          "saturday":  { "available": false },
+          "sunday":    { "available": false }
+        }
+      },
+      "features": {
+        "live_music": true,
+        "outdoor_patio": true,
+        "sports_tv": false,
+        "food_menu": true,
+        "late_night": false
+      },
+      "tags": ["craft-beer", "brewery", "beer-garden", "live-music"],
+      "priceRange": "$$"
+    },
+    {
+      "id": 3,
+      "name": "Rustic Leaf Brewing Co.",
+      "category": "happy-hours",
+      "subcategory": "Craft Brewery",
+      "tier": "standard",
+      "image": "https://images.unsplash.com/photo-1567696911980-2eed69a46042?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1567696911980-2eed69a46042?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1567696911980-2eed69a46042?w=800&h=400&fit=crop&crop=center",
+      "description": "Local neighborhood brewery with rotating taps, a cozy taproom, and a welcoming atmosphere. Great spot to try something new each week.",
+      "contact": {
+        "phone": "(269) 492-7756",
+        "address": "215 E Frank St, Kalamazoo, MI 49007",
+        "website": ""
+      },
+      "location": {
+        "lat": 42.2935,
+        "lng": -85.5830,
+        "neighborhood": "Vine"
+      },
+      "happyHour": {
+        "available": true,
+        "schedule": "Mon–Thurs 4–7 PM",
+        "days": {
+          "monday":    { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$1 off pints, $4 house lager" },
+          "tuesday":   { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$1 off pints, $4 house lager" },
+          "wednesday": { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$1 off pints, $4 house lager" },
+          "thursday":  { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$1 off pints, $4 house lager" },
+          "friday":    { "available": false },
+          "saturday":  { "available": false },
+          "sunday":    { "available": false }
+        }
+      },
+      "features": {
+        "live_music": false,
+        "outdoor_patio": true,
+        "sports_tv": false,
+        "food_menu": false,
+        "late_night": false
+      },
+      "tags": ["craft-beer", "brewery", "neighborhood"],
+      "priceRange": "$"
+    },
+    {
+      "id": 4,
+      "name": "Food Dance",
+      "category": "food-specials",
+      "subcategory": "American Bistro",
+      "tier": "featured",
+      "image": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1476224203421-9ac39bcb3327?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=400&fit=crop&crop=center",
+      "description": "Kalamazoo's beloved farm-to-table restaurant. Locally sourced ingredients, seasonal menu, and one of the best brunch scenes in the city.",
+      "contact": {
+        "phone": "(269) 382-1888",
+        "address": "401 E Michigan Ave, Kalamazoo, MI 49007",
+        "website": "https://fooddance.net"
+      },
+      "location": {
+        "lat": 42.2896,
+        "lng": -85.5810,
+        "neighborhood": "Downtown"
+      },
+      "happyHour": {
+        "available": true,
+        "schedule": "Mon–Fri 3–6 PM",
+        "days": {
+          "monday":    { "available": true, "startTime": "3:00 PM", "endTime": "6:00 PM", "deals": "Half-price appetizers, $4 house wines, $3 drafts" },
+          "tuesday":   { "available": true, "startTime": "3:00 PM", "endTime": "6:00 PM", "deals": "Half-price appetizers, $4 house wines, $3 drafts" },
+          "wednesday": { "available": true, "startTime": "3:00 PM", "endTime": "6:00 PM", "deals": "Half-price appetizers, $4 house wines, $3 drafts" },
+          "thursday":  { "available": true, "startTime": "3:00 PM", "endTime": "6:00 PM", "deals": "Half-price appetizers, $4 house wines, $3 drafts" },
+          "friday":    { "available": true, "startTime": "3:00 PM", "endTime": "6:00 PM", "deals": "Half-price appetizers, $4 house wines, $3 drafts" },
+          "saturday":  { "available": false },
+          "sunday":    { "available": false }
+        }
+      },
+      "foodSpecials": {
+        "available": true,
+        "specials": [
+          { "day": "tuesday", "name": "Taco Tuesday", "description": "$3 street tacos all day" },
+          { "day": "wednesday", "name": "Wine Wednesday", "description": "50% off bottles of wine" },
+          { "day": "sunday", "name": "Sunday Brunch", "description": "Bottomless mimosas $18" }
+        ]
+      },
+      "features": {
+        "live_music": false,
+        "outdoor_patio": true,
+        "sports_tv": false,
+        "food_menu": true,
+        "late_night": false,
+        "brunch": true,
+        "reservations": true
+      },
+      "tags": ["farm-to-table", "brunch", "downtown", "bistro"],
+      "priceRange": "$$$"
+    },
+    {
+      "id": 5,
+      "name": "Old Burdick's Bar & Grill",
+      "category": "food-specials",
+      "subcategory": "Bar & Grill",
+      "tier": "standard",
+      "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&h=400&fit=crop&crop=center",
+      "description": "Downtown staple for over 40 years. Burgers, wings, cold beer, and all the big games on 20+ screens. The perfect sports-watching spot.",
+      "contact": {
+        "phone": "(269) 382-2530",
+        "address": "100 W Michigan Ave, Kalamazoo, MI 49007",
+        "website": "https://oldburdicks.com"
+      },
+      "location": {
+        "lat": 42.2920,
+        "lng": -85.5873,
+        "neighborhood": "Downtown"
+      },
+      "happyHour": {
+        "available": true,
+        "schedule": "Daily 4–7 PM",
+        "days": {
+          "monday":    { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$2 domestic bottles, $3 imports, $4 wells" },
+          "tuesday":   { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$2 domestic bottles, $3 imports, $4 wells" },
+          "wednesday": { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$2 domestic bottles, $3 imports, $4 wells" },
+          "thursday":  { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$2 domestic bottles, $3 imports, $4 wells" },
+          "friday":    { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$2 domestic bottles, $3 imports, $4 wells" },
+          "saturday":  { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$2 domestic bottles, $3 imports, $4 wells" },
+          "sunday":    { "available": true, "startTime": "4:00 PM", "endTime": "7:00 PM", "deals": "$2 domestic bottles, $3 imports, $4 wells" }
+        }
+      },
+      "foodSpecials": {
+        "available": true,
+        "specials": [
+          { "day": "monday", "name": "Wing Monday", "description": "50-cent wings all day" },
+          { "day": "thursday", "name": "Burger Thursday", "description": "$7 burger & draft combo" }
+        ]
+      },
+      "features": {
+        "live_music": false,
+        "outdoor_patio": false,
+        "sports_tv": true,
+        "food_menu": true,
+        "late_night": true
+      },
+      "tags": ["sports-bar", "wings", "burgers", "downtown"],
+      "priceRange": "$$"
+    },
+    {
+      "id": 6,
+      "name": "Louie's Trophy House",
+      "category": "sports-bars",
+      "subcategory": "Sports Bar",
+      "tier": "standard",
+      "image": "https://images.unsplash.com/photo-1575367439058-6096bb522a84?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1575367439058-6096bb522a84?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1575367439058-6096bb522a84?w=800&h=400&fit=crop&crop=center",
+      "description": "The go-to WMU Broncos sports bar. Trophy cases, team memorabilia, cold domestics, and every game broadcast live. Go Broncos!",
+      "contact": {
+        "phone": "(269) 349-9677",
+        "address": "726 W Lovell St, Kalamazoo, MI 49007",
+        "website": ""
+      },
+      "location": {
+        "lat": 42.2971,
+        "lng": -85.5952,
+        "neighborhood": "West Main"
+      },
+      "happyHour": {
+        "available": true,
+        "schedule": "Mon–Fri 3–7 PM",
+        "days": {
+          "monday":    { "available": true, "startTime": "3:00 PM", "endTime": "7:00 PM", "deals": "$2 domestics, $3 wells" },
+          "tuesday":   { "available": true, "startTime": "3:00 PM", "endTime": "7:00 PM", "deals": "$2 domestics, $3 wells" },
+          "wednesday": { "available": true, "startTime": "3:00 PM", "endTime": "7:00 PM", "deals": "$2 domestics, $3 wells" },
+          "thursday":  { "available": true, "startTime": "3:00 PM", "endTime": "7:00 PM", "deals": "$2 domestics, $3 wells" },
+          "friday":    { "available": true, "startTime": "3:00 PM", "endTime": "7:00 PM", "deals": "$2 domestics, $3 wells" },
+          "saturday":  { "available": false },
+          "sunday":    { "available": false }
+        }
+      },
+      "features": {
+        "live_music": false,
+        "outdoor_patio": false,
+        "sports_tv": true,
+        "food_menu": true,
+        "late_night": true
+      },
+      "tags": ["sports-bar", "wmu", "college", "broncos"],
+      "priceRange": "$"
+    },
+    {
+      "id": 7,
+      "name": "Principle Food & Drink",
+      "category": "food-specials",
+      "subcategory": "Contemporary American",
+      "tier": "featured",
+      "image": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1482049016688-2d3e1b311543?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&h=400&fit=crop&crop=center",
+      "description": "Upscale downtown dining with a rotating seasonal menu, craft cocktails, and an impressive wine list. The perfect date night spot in Kalamazoo.",
+      "contact": {
+        "phone": "(269) 226-2100",
+        "address": "148 W Michigan Ave, Kalamazoo, MI 49007",
+        "website": "https://principlekzoo.com"
+      },
+      "location": {
+        "lat": 42.2923,
+        "lng": -85.5878,
+        "neighborhood": "Downtown"
+      },
+      "happyHour": {
+        "available": true,
+        "schedule": "Mon–Sat 4–6 PM",
+        "days": {
+          "monday":    { "available": true, "startTime": "4:00 PM", "endTime": "6:00 PM", "deals": "$6 craft cocktails, $5 wines, $4 local drafts" },
+          "tuesday":   { "available": true, "startTime": "4:00 PM", "endTime": "6:00 PM", "deals": "$6 craft cocktails, $5 wines, $4 local drafts" },
+          "wednesday": { "available": true, "startTime": "4:00 PM", "endTime": "6:00 PM", "deals": "$6 craft cocktails, $5 wines, $4 local drafts" },
+          "thursday":  { "available": true, "startTime": "4:00 PM", "endTime": "6:00 PM", "deals": "$6 craft cocktails, $5 wines, $4 local drafts" },
+          "friday":    { "available": true, "startTime": "4:00 PM", "endTime": "6:00 PM", "deals": "$6 craft cocktails, $5 wines, $4 local drafts" },
+          "saturday":  { "available": true, "startTime": "4:00 PM", "endTime": "6:00 PM", "deals": "$6 craft cocktails, $5 wines, $4 local drafts" },
+          "sunday":    { "available": false }
+        }
+      },
+      "features": {
+        "live_music": false,
+        "outdoor_patio": false,
+        "sports_tv": false,
+        "food_menu": true,
+        "late_night": false,
+        "reservations": true
+      },
+      "tags": ["cocktails", "wine", "fine-dining", "downtown"],
+      "priceRange": "$$$"
+    },
+    {
+      "id": 8,
+      "name": "Shakespeare's Pub",
+      "category": "brunch",
+      "subcategory": "Pub & Brunch",
+      "tier": "standard",
+      "image": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=800&h=400&fit=crop&crop=center",
+      "description": "Classic Kalamazoo pub with a famous weekend brunch. British-inspired menu, patio seating, and a curated selection of UK and local craft ales.",
+      "contact": {
+        "phone": "(269) 381-7399",
+        "address": "241 E Kalamazoo Ave, Kalamazoo, MI 49007",
+        "website": "https://shakespearespub.net"
+      },
+      "location": {
+        "lat": 42.2931,
+        "lng": -85.5815,
+        "neighborhood": "Downtown"
+      },
+      "happyHour": {
+        "available": false
+      },
+      "foodSpecials": {
+        "available": true,
+        "specials": [
+          { "day": "saturday", "name": "Weekend Brunch", "description": "Full brunch menu 10 AM – 2 PM, bottomless mimosas $15" },
+          { "day": "sunday",   "name": "Weekend Brunch", "description": "Full brunch menu 10 AM – 2 PM, bottomless mimosas $15" }
+        ]
+      },
+      "features": {
+        "live_music": false,
+        "outdoor_patio": true,
+        "sports_tv": true,
+        "food_menu": true,
+        "late_night": false,
+        "brunch": true
+      },
+      "tags": ["brunch", "pub", "patio", "british"],
+      "priceRange": "$$"
+    },
+    {
+      "id": 9,
+      "name": "Old Dog Tavern",
+      "category": "live-music",
+      "subcategory": "Live Music Bar",
+      "tier": "featured",
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=400&fit=crop&crop=center",
+      "description": "Kalamazoo's premier live music venue. National and local acts spanning rock, blues, country, and indie. Shows almost every night of the week.",
+      "contact": {
+        "phone": "(269) 342-5400",
+        "address": "402 E Kalamazoo Ave, Kalamazoo, MI 49007",
+        "website": "https://olddogtavern.com"
+      },
+      "location": {
+        "lat": 42.2924,
+        "lng": -85.5808,
+        "neighborhood": "Downtown"
+      },
+      "happyHour": {
+        "available": true,
+        "schedule": "Daily 5–8 PM",
+        "days": {
+          "monday":    { "available": true, "startTime": "5:00 PM", "endTime": "8:00 PM", "deals": "$2 off drafts & bottles" },
+          "tuesday":   { "available": true, "startTime": "5:00 PM", "endTime": "8:00 PM", "deals": "$2 off drafts & bottles" },
+          "wednesday": { "available": true, "startTime": "5:00 PM", "endTime": "8:00 PM", "deals": "$2 off drafts & bottles" },
+          "thursday":  { "available": true, "startTime": "5:00 PM", "endTime": "8:00 PM", "deals": "$2 off drafts & bottles" },
+          "friday":    { "available": true, "startTime": "5:00 PM", "endTime": "8:00 PM", "deals": "$2 off drafts & bottles" },
+          "saturday":  { "available": true, "startTime": "5:00 PM", "endTime": "8:00 PM", "deals": "$2 off drafts & bottles" },
+          "sunday":    { "available": true, "startTime": "5:00 PM", "endTime": "8:00 PM", "deals": "$2 off drafts & bottles" }
+        }
+      },
+      "features": {
+        "live_music": true,
+        "outdoor_patio": false,
+        "sports_tv": false,
+        "food_menu": true,
+        "late_night": true
+      },
+      "tags": ["live-music", "rock", "blues", "concerts"],
+      "priceRange": "$$"
+    },
+    {
+      "id": 11,
+      "name": "Serenity Spa & Wellness",
+      "category": "services",
+      "subcategory": "Spa",
+      "tier": "featured",
+      "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=800&h=400&fit=crop&crop=center",
+      "description": "Kalamazoo's premier full-service day spa. Massages, facials, body wraps, and more in a serene, luxurious setting.",
+      "contact": {
+        "phone": "(269) 555-0101",
+        "address": "320 S Kalamazoo Mall, Kalamazoo, MI 49007",
+        "website": ""
+      },
+      "location": {
+        "lat": 42.2910,
+        "lng": -85.5845,
+        "neighborhood": "Downtown"
+      },
+      "features": {
+        "reservations": true,
+        "gift_cards": true
+      },
+      "tags": ["spa", "massage", "facials", "wellness"],
+      "priceRange": "$$$"
+    },
+    {
+      "id": 12,
+      "name": "Studio K Salon",
+      "category": "services",
+      "subcategory": "Salon",
+      "tier": "featured",
+      "image": "https://images.unsplash.com/photo-1560066984-138daaa0ad8b?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1560066984-138daaa0ad8b?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1560066984-138daaa0ad8b?w=800&h=400&fit=crop&crop=center",
+      "description": "Full-service hair salon offering cuts, color, styling, and treatments for all hair types. Walk-ins welcome.",
+      "contact": {
+        "phone": "(269) 555-0202",
+        "address": "510 W Michigan Ave, Kalamazoo, MI 49007",
+        "website": ""
+      },
+      "location": {
+        "lat": 42.2918,
+        "lng": -85.5890,
+        "neighborhood": "West Main"
+      },
+      "features": {
+        "walk_ins": true,
+        "gift_cards": true
+      },
+      "tags": ["salon", "hair", "color", "styling"],
+      "priceRange": "$$"
+    },
+    {
+      "id": 13,
+      "name": "Kalamazoo Nail Bar",
+      "category": "services",
+      "subcategory": "Nail Salon",
+      "tier": "standard",
+      "image": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1604654894610-df63bc536371?w=800&h=400&fit=crop&crop=center",
+      "description": "Chic nail studio specializing in manicures, pedicures, gel, and nail art. A relaxing spot with top-tier results.",
+      "contact": {
+        "phone": "(269) 555-0303",
+        "address": "188 E Michigan Ave, Kalamazoo, MI 49007",
+        "website": ""
+      },
+      "location": {
+        "lat": 42.2921,
+        "lng": -85.5862,
+        "neighborhood": "Downtown"
+      },
+      "features": {
+        "walk_ins": true
+      },
+      "tags": ["nails", "manicure", "pedicure", "gel"],
+      "priceRange": "$$"
+    },
+    {
+      "id": 14,
+      "name": "Iron & Ink Tattoo",
+      "category": "services",
+      "subcategory": "Tattoo & Piercing",
+      "tier": "standard",
+      "image": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&h=400&fit=crop&crop=center",
+      "description": "Award-winning tattoo and piercing studio. Custom designs, cover-ups, and professional body piercing in a clean, welcoming environment.",
+      "contact": {
+        "phone": "(269) 555-0404",
+        "address": "437 S Burdick St, Kalamazoo, MI 49007",
+        "website": ""
+      },
+      "location": {
+        "lat": 42.2885,
+        "lng": -85.5850,
+        "neighborhood": "Vine"
+      },
+      "features": {
+        "by_appointment": true,
+        "walk_ins": true
+      },
+      "tags": ["tattoo", "piercing", "custom", "art"],
+      "priceRange": "$$"
+    },
+    {
+      "id": 15,
+      "name": "ZenFit Yoga & Wellness",
+      "category": "services",
+      "subcategory": "Fitness & Yoga",
+      "tier": "standard",
+      "image": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=800&h=400&fit=crop&crop=center",
+      "description": "Community yoga studio offering hot yoga, vinyasa, meditation, and wellness workshops. All levels welcome.",
+      "contact": {
+        "phone": "(269) 555-0505",
+        "address": "620 W Lovell St, Kalamazoo, MI 49007",
+        "website": ""
+      },
+      "location": {
+        "lat": 42.2970,
+        "lng": -85.5940,
+        "neighborhood": "West Main"
+      },
+      "features": {
+        "classes": true,
+        "drop_in": true
+      },
+      "tags": ["yoga", "fitness", "wellness", "meditation"],
+      "priceRange": "$$"
+    },
+    {
+      "id": 10,
+      "name": "Wayside Bar",
+      "category": "late-night",
+      "subcategory": "Dive Bar",
+      "tier": "standard",
+      "image": "https://images.unsplash.com/photo-1538488881038-e252a119ace7?w=400&h=400&fit=crop&crop=center",
+      "logo": "https://images.unsplash.com/photo-1538488881038-e252a119ace7?w=200&h=200&fit=crop&crop=center",
+      "heroImage": "https://images.unsplash.com/photo-1538488881038-e252a119ace7?w=800&h=400&fit=crop&crop=center",
+      "description": "The classic late-night Kalamazoo dive. Cheap drinks, a great jukebox, and people from all walks of life. Open until 2 AM every night.",
+      "contact": {
+        "phone": "(269) 344-0006",
+        "address": "530 S Burdick St, Kalamazoo, MI 49007",
+        "website": ""
+      },
+      "location": {
+        "lat": 42.2880,
+        "lng": -85.5848,
+        "neighborhood": "Vine"
+      },
+      "happyHour": {
+        "available": true,
+        "schedule": "Daily until 9 PM",
+        "days": {
+          "monday":    { "available": true, "startTime": "12:00 PM", "endTime": "9:00 PM", "deals": "$2.50 domestic cans, $3 wells all day until 9" },
+          "tuesday":   { "available": true, "startTime": "12:00 PM", "endTime": "9:00 PM", "deals": "$2.50 domestic cans, $3 wells all day until 9" },
+          "wednesday": { "available": true, "startTime": "12:00 PM", "endTime": "9:00 PM", "deals": "$2.50 domestic cans, $3 wells all day until 9" },
+          "thursday":  { "available": true, "startTime": "12:00 PM", "endTime": "9:00 PM", "deals": "$2.50 domestic cans, $3 wells all day until 9" },
+          "friday":    { "available": true, "startTime": "12:00 PM", "endTime": "9:00 PM", "deals": "$2.50 domestic cans, $3 wells all day until 9" },
+          "saturday":  { "available": true, "startTime": "12:00 PM", "endTime": "9:00 PM", "deals": "$2.50 domestic cans, $3 wells all day until 9" },
+          "sunday":    { "available": true, "startTime": "12:00 PM", "endTime": "9:00 PM", "deals": "$2.50 domestic cans, $3 wells all day until 9" }
+        }
+      },
+      "features": {
+        "live_music": false,
+        "outdoor_patio": false,
+        "sports_tv": true,
+        "food_menu": false,
+        "late_night": true
+      },
+      "tags": ["dive-bar", "late-night", "cheap-drinks", "jukebox"],
+      "priceRange": "$"
+    }
+  ]
+}

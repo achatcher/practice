@@ -1,0 +1,90 @@
+{
+  "location": "greenville",
+  "lastUpdated": "2025-01-15T00:00:00Z",
+  "events": [
+    {
+      "id": 1,
+      "title": "Greenville Wine & Food Festival",
+      "category": "Food & Wine",
+      "tier": "signature",
+      "description": "Annual celebration of Greenville's culinary scene featuring local restaurants, wineries, and live entertainment in Falls Park.",
+      "image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&h=600&fit=crop&crop=center",
+      "date": "2025-05-15",
+      "time": "6:00 PM",
+      "endDate": "2025-05-17",
+      "location": "Falls Park on the Reedy",
+      "address": "601 S Main St, Greenville, SC 29601",
+      "coordinates": {
+        "lat": 34.8463,
+        "lng": -82.3959
+      },
+      "ticketPrice": "$45-$125",
+      "website": "https://greenvillewinefest.com",
+      "phone": "(864) 232-2273",
+      "featured": true,
+      "tags": ["wine", "food", "festival", "outdoor"],
+      "capacity": 2500,
+      "ageRestriction": "21+",
+      "organizer": {
+        "name": "Greenville Events",
+        "contact": "events@greenvilleevents.com"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Fall for Greenville",
+      "category": "Music & Arts",
+      "tier": "premier",
+      "description": "Three-day street festival featuring live music, local food vendors, and artisan crafts throughout downtown Greenville.",
+      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop&crop=center",
+      "date": "2025-10-10",
+      "time": "5:00 PM",
+      "endDate": "2025-10-12",
+      "location": "Main Street Downtown",
+      "address": "Main St, Greenville, SC 29601",
+      "coordinates": {
+        "lat": 34.8527,
+        "lng": -82.3940
+      },
+      "ticketPrice": "Free",
+      "website": "https://fallforgreenville.net",
+      "phone": "(864) 467-4300",
+      "featured": true,
+      "tags": ["music", "arts", "festival", "family"],
+      "capacity": 50000,
+      "ageRestriction": "All Ages",
+      "organizer": {
+        "name": "City of Greenville",
+        "contact": "specialevents@greenvillesc.gov"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Artisphere",
+      "category": "Arts & Culture",
+      "tier": "curated",
+      "description": "Annual fine arts festival showcasing regional and national artists, with interactive exhibits and live demonstrations.",
+      "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=800&h=600&fit=crop&crop=center",
+      "date": "2025-05-08",
+      "time": "10:00 AM",
+      "endDate": "2025-05-10",
+      "location": "Main Street Cultural District",
+      "address": "300 S Main St, Greenville, SC 29601",
+      "coordinates": {
+        "lat": 34.8510,
+        "lng": -82.3940
+      },
+      "ticketPrice": "Free",
+      "website": "https://artisphere.us",
+      "phone": "(864) 271-9398",
+      "featured": false,
+      "tags": ["art", "culture", "family", "outdoor"],
+      "capacity": 15000,
+      "ageRestriction": "All Ages",
+      "organizer": {
+        "name": "MetroGreenville",
+        "contact": "info@metrogreenville.org"
+      }
+    }
+  ]
+}

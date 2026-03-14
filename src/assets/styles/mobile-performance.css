@@ -1,0 +1,449 @@
+/*
+ * Mobile Performance Optimizations
+ *
+ * Critical CSS optimizations specifically for mobile device performance.
+ * These styles improve rendering speed, reduce paint operations, and optimize for mobile CPUs.
+ */
+
+/* ===== PERFORMANCE OPTIMIZATIONS ===== */
+
+/* Hardware acceleration for smooth animations */
+.hw-accelerate {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  will-change: transform;
+}
+
+/* Optimize font rendering for mobile */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+/* Reduce paint operations */
+.reduce-paint {
+  contain: layout style paint;
+  content-visibility: auto;
+}
+
+/* ===== MOBILE-FIRST OPTIMIZATIONS ===== */
+
+/* Optimize images for mobile viewport */
+img {
+  max-width: 100%;
+  height: auto;
+  /* Prevent layout shift during image load */
+  aspect-ratio: attr(width) / attr(height);
+}
+
+/* Lazy loading hint for browsers */
+img[loading="lazy"] {
+  content-visibility: auto;
+}
+
+/* ===== SCROLL PERFORMANCE ===== */
+
+/* Smooth scrolling with momentum on iOS */
+.smooth-scroll {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* Optimize scrolling containers */
+.scroll-container {
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ===== ANIMATION PERFORMANCE ===== */
+
+/* Use transforms instead of changing layout properties */
+.slide-up {
+  transform: translateY(100%);
+  transition: transform var(--transition-base);
+}
+
+.slide-up.active {
+  transform: translateY(0);
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.fade-in.active {
+  opacity: 1;
+}
+
+/* Optimize for mobile processors */
+.mobile-optimized {
+  transform: translateZ(0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+/* ===== TOUCH OPTIMIZATION ===== */
+
+/* Prevent 300ms tap delay */
+a, button, input, select, textarea {
+  touch-action: manipulation;
+}
+
+/* Prevent text selection on buttons */
+button, .btn {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Prevent zoom on form inputs (iOS) */
+input, select, textarea {
+  font-size: 16px; /* Prevents zoom on iOS */
+}
+
+/* ===== VIEWPORT OPTIMIZATIONS ===== */
+
+/* Safe area handling for notched devices */
+@supports (padding: max(0px)) {
+  .safe-area-top {
+    padding-top: max(var(--space-4), env(safe-area-inset-top));
+  }
+
+  .safe-area-bottom {
+    padding-bottom: max(var(--space-4), env(safe-area-inset-bottom));
+  }
+
+  .safe-area-left {
+    padding-left: max(var(--space-4), env(safe-area-inset-left));
+  }
+
+  .safe-area-right {
+    padding-right: max(var(--space-4), env(safe-area-inset-right));
+  }
+}
+
+/* ===== MEMORY OPTIMIZATION ===== */
+
+/* Reduce memory usage for large lists */
+.virtual-list-item {
+  contain: strict;
+  content-visibility: auto;
+  contain-intrinsic-size: auto 100px;
+}
+
+/* Optimize background images for mobile */
+.bg-image {
+  background-attachment: scroll; /* Better performance than fixed on mobile */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ===== NETWORK OPTIMIZATION ===== */
+
+/* Preload critical resources */
+.preload-font {
+  font-display: swap;
+}
+
+/* Optimize for slow networks */
+@media (prefers-reduced-data: reduce) {
+  .high-bandwidth-content {
+    display: none;
+  }
+
+  .low-bandwidth-alternative {
+    display: block;
+  }
+}
+
+/* ===== MOBILE-SPECIFIC RESPONSIVE UTILITIES ===== */
+
+/* Hide on mobile */
+@media (max-width: 639px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+
+  .mobile-only {
+    display: block !important;
+  }
+}
+
+/* Show only on mobile */
+@media (min-width: 640px) {
+  .mobile-only {
+    display: none !important;
+  }
+
+  .desktop-only {
+    display: block !important;
+  }
+}
+
+/* ===== ACCESSIBILITY OPTIMIZATIONS ===== */
+
+/* Respect user preferences */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .btn-primary {
+    border: 2px solid var(--color-text-primary);
+  }
+
+  .category-card {
+    border: 1px solid var(--color-text-primary);
+  }
+}
+
+/* ===== PERFORMANCE MONITORING ===== */
+
+/* Critical rendering path optimization */
+.above-the-fold {
+  content-visibility: visible;
+  contain: none;
+}
+
+.below-the-fold {
+  content-visibility: auto;
+  contain: layout style paint;
+  contain-intrinsic-size: 0 500px;
+}
+
+/* ===== BATTERY OPTIMIZATION ===== */
+
+/* Reduce animations on low battery */
+@media (prefers-reduced-motion: reduce) {
+  .pulse,
+  .shimmer,
+  .fade-in,
+  .slide-up {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* ===== MOBILE SAFARI SPECIFIC ===== */
+
+/* Fix iOS viewport issues */
+.ios-scroll-fix {
+  -webkit-overflow-scrolling: touch;
+  transform: translateZ(0);
+}
+
+/* Prevent iOS zoom on double-tap */
+.no-zoom {
+  touch-action: manipulation;
+}
+
+/* Fix iOS input zoom */
+@media screen and (max-width: 767px) {
+  input, textarea, select {
+    font-size: 16px !important;
+  }
+}
+
+/* ===== MOBILE GESTURE FEEDBACK ===== */
+
+/* Swipe gesture indicators */
+.swipe-indicator {
+  position: fixed;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+  pointer-events: none;
+  z-index: var(--z-tooltip);
+}
+
+.swipe-indicator.active {
+  opacity: 0.7;
+}
+
+/* Pull-to-refresh styling */
+.pull-to-refresh {
+  position: relative;
+  overflow: hidden;
+}
+
+.pull-to-refresh::before {
+  content: '';
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  border: 3px solid var(--color-primary);
+  border-radius: 50%;
+  border-top-color: transparent;
+  animation: spin 1s linear infinite;
+  opacity: 0;
+  transition: opacity var(--transition-base);
+}
+
+.pull-to-refresh.refreshing::before {
+  opacity: 1;
+}
+
+@keyframes spin {
+  to {
+    transform: translateX(-50%) rotate(360deg);
+  }
+}
+
+/* ===== KEYBOARD HANDLING ===== */
+
+/* Keyboard visible state */
+body.keyboard-visible {
+  /* Adjust layout when keyboard is visible */
+  --effective-viewport-height: calc(100vh - var(--keyboard-height, 0px));
+}
+
+body.keyboard-visible .bottom-nav {
+  /* Hide bottom navigation when keyboard is visible */
+  transform: translateY(100%);
+}
+
+body.keyboard-visible .floating-action {
+  /* Move floating actions above keyboard */
+  bottom: calc(var(--keyboard-height, 0px) + var(--space-4));
+}
+
+/* Form input adjustments for keyboard */
+.keyboard-aware-container {
+  transition: transform var(--transition-base);
+}
+
+body.keyboard-visible .keyboard-aware-container {
+  transform: translateY(-10vh);
+}
+
+/* ===== GESTURE VISUAL FEEDBACK ===== */
+
+/* Touch ripple effect */
+.touch-ripple {
+  position: relative;
+  overflow: hidden;
+}
+
+.touch-ripple::after {
+  content: '';
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.3);
+  transform: scale(0);
+  animation: ripple 0.6s ease-out;
+  pointer-events: none;
+}
+
+@keyframes ripple {
+  to {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* Long press feedback */
+.long-press-active {
+  transform: scale(0.95);
+  transition: transform var(--transition-fast);
+}
+
+/* Swipe navigation feedback */
+.swipe-nav-back {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: var(--space-2);
+  height: 100vh;
+  background: linear-gradient(to right, var(--color-primary-alpha-20), transparent);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+  z-index: var(--z-tooltip);
+}
+
+.swipe-nav-back.active {
+  opacity: 1;
+}
+
+/* ===== MOBILE NAVIGATION ENHANCEMENTS ===== */
+
+/* Smooth page transitions */
+.page-transition-enter-active,
+.page-transition-leave-active {
+  transition: transform var(--transition-slow), opacity var(--transition-slow);
+}
+
+.page-transition-enter-from {
+  transform: translateX(100%);
+  opacity: 0;
+}
+
+.page-transition-leave-to {
+  transform: translateX(-30%);
+  opacity: 0;
+}
+
+/* Back gesture visual */
+.back-gesture-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, rgba(47, 82, 51, 0.1), transparent 30%);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+  pointer-events: none;
+  z-index: var(--z-modal-backdrop);
+}
+
+.back-gesture-overlay.active {
+  opacity: 1;
+}
+
+/* ===== ACCESSIBILITY IMPROVEMENTS ===== */
+
+/* Focus management for touch devices */
+@media (hover: none) {
+  /* Remove hover states on touch devices */
+  button:hover,
+  .btn:hover,
+  a:hover {
+    transform: none;
+  }
+
+  /* Enhanced focus states for accessibility */
+  button:focus-visible,
+  .btn:focus-visible,
+  a:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+/* Reduce motion for users who prefer it */
+@media (prefers-reduced-motion: reduce) {
+  .touch-ripple::after,
+  .pull-to-refresh::before,
+  .page-transition-enter-active,
+  .page-transition-leave-active {
+    animation: none !important;
+    transition: none !important;
+  }
+}

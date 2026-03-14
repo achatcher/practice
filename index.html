@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no" />
+
+    <!-- PWA Meta Tags -->
+    <meta name="theme-color" content="#FF6B35" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="KSocial" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="KSocial - Your city's social hub for happy hours, food specials, and events in Kalamazoo, MI." />
+    <meta name="keywords" content="Kalamazoo, happy hour, food specials, events, bars, restaurants, nightlife, Kalamazoo social" />
+    <meta name="author" content="KSocial" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="KSocial - Your City's Social Hub" />
+    <meta property="og:description" content="Happy hours, food specials, and events happening in your city — all in one place." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200&h=630&fit=crop&crop=center" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="KSocial" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="KSocial - Your City's Social Hub" />
+    <meta name="twitter:description" content="Happy hours, food specials, and events in your city." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=1200&h=630&fit=crop&crop=center" />
+
+    <!-- Geo Location Meta Tags (Kalamazoo, MI) -->
+    <meta name="geo.region" content="US-MI" />
+    <meta name="geo.placename" content="Kalamazoo, Michigan" />
+    <meta name="geo.position" content="42.2917;-85.5872" />
+    <meta name="ICBM" content="42.2917, -85.5872" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "KSocial",
+      "description": "Your city's social hub for happy hours, food specials, and events.",
+      "applicationCategory": "LifestyleApplication",
+      "operatingSystem": "All",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "KSocial"
+      },
+      "about": {
+        "@type": "Place",
+        "name": "Kalamazoo",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Kalamazoo",
+          "addressRegion": "Michigan",
+          "addressCountry": "US"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "42.2917",
+          "longitude": "-85.5872"
+        }
+      }
+    }
+    </script>
+
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+
+    <!-- iOS Splash Screens -->
+    <link rel="apple-touch-startup-image" href="/splash-1242x2688.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+    <link rel="apple-touch-startup-image" href="/splash-750x1334.png" media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+
+    <title>KSocial - Your City's Social Hub</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+
+    <!-- PWA Install Prompt Handler -->
+    <script>
+      let deferredPrompt;
+
+      window.addEventListener('beforeinstallprompt', (e) => {
+        e.preventDefault();
+        deferredPrompt = e;
+        window.deferredPrompt = deferredPrompt;
+      });
+
+      window.addEventListener('appinstalled', () => {
+        console.log('KSocial app was installed');
+        deferredPrompt = null;
+        window.deferredPrompt = null;
+      });
+    </script>
+  </body>
+</html>

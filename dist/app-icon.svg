@@ -1,0 +1,29 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with mountain/natural gradient -->
+  <rect width="512" height="512" fill="#FFFFFF" rx="102"/>
+  <rect width="512" height="512" fill="url(#gradient)" rx="102"/>
+
+  <!-- Forest green border -->
+  <rect x="8" y="8" width="496" height="496" fill="none" stroke="#2F5233" stroke-width="4" rx="98"/>
+
+  <!-- Main logo/icon -->
+  <g transform="translate(128, 128)">
+    <!-- Mountain peaks representing outdoor/hiking theme -->
+    <path d="M128 80L150 120H106L128 80Z" fill="#2F5233"/>
+    <path d="M160 100L180 120H140L160 100Z" fill="#1E3521"/>
+    <path d="M96 100L116 120H76L96 100Z" fill="#1E3521"/>
+    <path d="M106 120L128 160L150 120H106Z" fill="#2F5233"/>
+    <path d="M140 120L160 140L180 120H140Z" fill="#D4AF37"/>
+    <path d="M76 120L96 140L116 120H76Z" fill="#D4AF37"/>
+
+    <!-- Text "GS" for Greenville Social -->
+    <text x="128" y="230" text-anchor="middle" fill="#2F5233" font-family="serif" font-size="48" font-weight="bold">GS</text>
+  </g>
+
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F8F9FA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+</svg>

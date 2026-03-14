@@ -1,0 +1,402 @@
+/*
+ * Card Component Styles
+ *
+ * Reusable card components for business listings and content containers.
+ * Uses the KSocial design system variables for consistent styling.
+ */
+
+/* ===== BASE CARD STYLES ===== */
+
+.card {
+  background: var(--card-background);
+  border-radius: var(--card-border-radius);
+  border: 1px solid var(--color-border-secondary);
+  overflow: hidden;
+  transition: var(--transition-all);
+}
+
+.card-body {
+  padding: var(--card-padding);
+}
+
+.card-header {
+  padding: var(--space-4) var(--card-padding);
+  border-bottom: 1px solid var(--color-border-secondary);
+}
+
+.card-footer {
+  padding: var(--space-4) var(--card-padding);
+  border-top: 1px solid var(--color-border-secondary);
+  background: var(--color-bg-primary);
+}
+
+/* ===== BUSINESS LISTING CARDS ===== */
+
+/* Signature Tier - Premium full-width cards */
+.card-signature {
+  background: var(--tier-signature-bg);
+  border: 1px solid var(--color-border-secondary);
+  box-shadow: var(--shadow-lg);
+  margin-bottom: var(--space-4);
+}
+
+.card-signature:hover {
+  border-color: var(--color-border-accent);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-primary);
+}
+
+.card-signature-image {
+  position: relative;
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.card-signature-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: var(--transition-slow);
+}
+
+.card-signature:hover .card-signature-image img {
+  transform: scale(1.05);
+}
+
+.card-signature-body {
+  padding: var(--space-4);
+}
+
+.card-signature-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-2);
+}
+
+.card-signature-title {
+  color: var(--color-primary);
+  font-size: var(--font-size-xl);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  margin: 0;
+  flex: 1;
+  line-height: var(--line-height-snug);
+}
+
+.card-signature-price {
+  color: var(--color-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  white-space: nowrap;
+  margin-left: var(--space-3);
+  padding: var(--space-1) var(--space-2);
+  background: var(--color-primary-alpha-10);
+  border-radius: var(--radius-sm);
+  border: 1px solid var(--color-primary-alpha-20);
+}
+
+.card-signature-description {
+  color: var(--color-text-tertiary);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-normal);
+  margin: 0 0 var(--space-3) 0;
+}
+
+.card-signature-features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.card-signature-feature {
+  background: var(--color-primary-alpha-10);
+  color: var(--color-primary);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-md);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  border: 1px solid var(--color-primary-alpha-20);
+}
+
+/* Premier Tier - Grid cards */
+.card-premier {
+  background: var(--tier-premier-bg);
+  border: 1px solid var(--color-border-secondary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-4);
+  cursor: pointer;
+  transition: var(--transition-all);
+  text-align: center;
+  backdrop-filter: var(--backdrop-blur-base);
+}
+
+.card-premier:hover {
+  border-color: var(--color-primary-alpha-20);
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-primary);
+  background: var(--color-primary-alpha-10);
+}
+
+.card-premier-image {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--space-4);
+  border: 2px solid #333;
+}
+
+.card-premier-title {
+  color: var(--color-primary);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  margin: 0 0 var(--space-2) 0;
+  line-height: var(--line-height-snug);
+}
+
+.card-premier-description {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
+  margin: 0 0 var(--space-3) 0;
+}
+
+.card-premier-meta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.card-premier-price {
+  color: var(--color-primary);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+}
+
+.card-premier-badge {
+  background: var(--color-platinum);
+  color: var(--color-bg-primary);
+  box-shadow: 0 2px 8px rgba(229, 228, 226, 0.3);
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weight-bold);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wider);
+}
+
+/* Curated Tier - List items */
+.card-curated {
+  background: var(--tier-curated-bg);
+  padding: var(--space-3);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  cursor: pointer;
+  transition: var(--transition-all);
+  border: none;
+  border-bottom: 1px solid var(--color-border-secondary);
+}
+
+.card-curated:hover {
+  background: var(--color-primary-alpha-10);
+}
+
+.card-curated:last-child {
+  border-bottom: none;
+}
+
+.card-curated-image {
+  width: 48px;
+  height: 48px;
+  object-fit: cover;
+  border-radius: var(--radius-md);
+  flex-shrink: 0;
+  border: 1px solid var(--color-border-primary);
+}
+
+.card-curated-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.card-curated-title {
+  color: var(--color-primary);
+  font-size: var(--font-size-md);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  margin: 0 0 var(--space-1) 0;
+}
+
+.card-curated-description {
+  color: var(--color-text-muted);
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-snug);
+  margin: 0;
+}
+
+.card-curated-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-shrink: 0;
+}
+
+.card-curated-price {
+  color: var(--color-primary);
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+}
+
+.card-curated-arrow {
+  color: var(--color-text-disabled);
+  font-size: var(--font-size-xl);
+}
+
+/* ===== CATEGORY CARDS ===== */
+
+.card-category {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  cursor: pointer;
+  transition: var(--transition-all);
+  background: var(--color-bg-tertiary);
+}
+
+.card-category:active {
+  transform: scale(0.98);
+}
+
+.card-category-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  position: relative;
+  z-index: 2;
+}
+
+.card-category-placeholder {
+  width: 100%;
+  height: 100%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: var(--color-bg-surface);
+}
+
+.card-category-placeholder .icon {
+  font-size: 35px;
+  opacity: 0.3;
+  font-style: normal;
+}
+
+.card-category-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to top, rgba(47, 82, 51, 0.9) 0%, rgba(47, 82, 51, 0.6) 50%, transparent 100%);
+  padding: var(--space-3);
+  z-index: 3;
+}
+
+.card-category-subtitle {
+  color: var(--color-text-primary);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  margin-bottom: var(--space-1);
+}
+
+.card-category-title {
+  color: var(--color-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-extrabold);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(47, 82, 51, 0.8);
+  line-height: var(--line-height-tight);
+}
+
+/* ===== BADGE OVERLAYS ===== */
+
+.card-badge {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+  background: var(--color-primary);
+  color: var(--color-bg-primary);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-2xl);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wider);
+  z-index: 10;
+}
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+
+@media (min-width: 640px) {
+  .card-signature-image {
+    height: 300px;
+  }
+
+  .card-signature-body {
+    padding: var(--space-6);
+  }
+
+  .card-signature-title {
+    font-size: var(--font-size-2xl);
+  }
+
+  .card-signature-description {
+    font-size: var(--font-size-lg);
+  }
+
+  .card-curated {
+    padding: var(--space-5);
+  }
+
+  .card-curated-image {
+    width: 80px;
+    height: 80px;
+  }
+
+  .card-curated-title {
+    font-size: var(--font-size-lg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-signature-image {
+    height: 350px;
+  }
+
+  .card:hover {
+    box-shadow: var(--shadow-primary-lg);
+    transform: translateY(-2px);
+  }
+
+  .card-category-placeholder .icon {
+    font-size: 55px;
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "app": {
+    "name": "KSocial",
+    "shortName": "KSocial",
+    "tagline": "Your city's social hub",
+    "description": "Happy hours · Food specials · Live music · Events",
+    "location": {
+      "city": "Kalamazoo",
+      "state": "Michigan",
+      "country": "USA",
+      "coordinates": {
+        "lat": 42.2917,
+        "lng": -85.5872
+      },
+      "timezone": "America/Detroit"
+    },
+    "branding": {
+      "primaryColor": "#FF6B35",
+      "secondaryColor": "#1A1A2E",
+      "favicon": "/favicon.ico"
+    },
+    "contact": {
+      "email": "hello@ksocial.app"
+    },
+    "social": {
+      "instagram": "https://instagram.com/ksocialapp"
+    }
+  },
+  "navigation": {
+    "categories": [
+      {
+        "id": "happy-hours",
+        "name": "Happy Hours",
+        "displayName": "Happy Hours",
+        "description": "Today's best drink & food deals",
+        "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=800&h=500&fit=crop&crop=center",
+        "icon": "🍺",
+        "featured": true,
+        "order": 1,
+        "specialView": "HappyHours"
+      },
+      {
+        "id": "food-specials",
+        "name": "Food Specials",
+        "displayName": "Food Specials",
+        "description": "Deals on plates worth ordering",
+        "image": "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?w=800&h=500&fit=crop&crop=center",
+        "icon": "🍔",
+        "featured": false,
+        "order": 2
+      },
+      {
+        "id": "live-music",
+        "name": "Live Music",
+        "displayName": "Live Music",
+        "description": "Bands, DJs & open mics tonight",
+        "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=500&fit=crop&crop=center",
+        "icon": "🎸",
+        "featured": false,
+        "order": 3
+      },
+      {
+        "id": "brunch",
+        "name": "Brunch",
+        "displayName": "Brunch",
+        "description": "Weekend brunch spots & specials",
+        "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800&h=500&fit=crop&crop=center",
+        "icon": "🥂",
+        "featured": false,
+        "order": 4
+      },
+      {
+        "id": "sports-bars",
+        "name": "Sports Bars",
+        "displayName": "Sports Bars",
+        "description": "Best spots to watch the game",
+        "image": "https://images.unsplash.com/photo-1546519638405-a9d1b1d83b45?w=800&h=500&fit=crop&crop=center",
+        "icon": "🏈",
+        "featured": false,
+        "order": 5
+      },
+      {
+        "id": "late-night",
+        "name": "Late Night",
+        "displayName": "Late Night",
+        "description": "Still going after midnight",
+        "image": "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=500&fit=crop&crop=center",
+        "icon": "🌙",
+        "featured": false,
+        "order": 6
+      },
+      {
+        "id": "services",
+        "name": "Services",
+        "displayName": "Services",
+        "description": "Spas, salons & wellness near you",
+        "image": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?w=800&h=500&fit=crop&crop=center",
+        "icon": "✨",
+        "featured": false,
+        "order": 7,
+        "specialView": "Services"
+      }
+    ]
+  },
+  "pages": {
+    "home": {
+      "title": "KSocial",
+      "subtitle": "Your city's social hub",
+      "features": "Happy Hours · Food Specials · Live Music · Events"
+    },
+    "events": {
+      "title": "Events",
+      "subtitle": "What's happening around town",
+      "showFeatured": true,
+      "showCalendar": true
+    },
+    "map": {
+      "title": "Explore",
+      "subtitle": "Find spots near you",
+      "defaultZoom": 14,
+      "markerIcon": "🍺"
+    }
+  },
+  "tiers": {
+    "featured": {
+      "id": "featured",
+      "name": "Featured",
+      "displayName": "FEATURED",
+      "color": "#FF6B35",
+      "priority": 1,
+      "description": "Top placement with orange highlight"
+    },
+    "standard": {
+      "id": "standard",
+      "name": "Standard",
+      "displayName": "",
+      "color": "",
+      "priority": 2,
+      "description": "Regular listing"
+    }
+  },
+  "features": {
+    "enableEvents": true,
+    "enableMap": true,
+    "enableBusinessModal": true,
+    "enableQRSharing": true,
+    "enablePWA": true,
+    "enableAnalytics": false
+  },
+  "integrations": {
+    "maps": {
+      "provider": "leaflet",
+      "tileProvider": "openstreetmap"
+    }
+  },
+  "version": "1.0.0",
+  "lastUpdated": "2026-03-13T00:00:00Z"
+}

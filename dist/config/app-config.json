@@ -1,0 +1,351 @@
+{
+  "app": {
+    "name": "The Greenville Social",
+    "shortName": "Greenville Social",
+    "tagline": "Mountain community lifestyle for Greenville residents",
+    "description": "Exclusive access • Private clubs • Dining",
+    "location": {
+      "city": "Greenville",
+      "state": "South Carolina",
+      "country": "USA",
+      "coordinates": {
+        "lat": 34.8526,
+        "lng": -82.3940
+      },
+      "timezone": "America/New_York"
+    },
+    "branding": {
+      "primaryColor": "#D4AF37",
+      "secondaryColor": "#2F5233",
+      "logoLight": "/images/white.png",
+      "logoDark": "/images/green.png",
+      "favicon": "/favicon.ico"
+    },
+    "contact": {
+      "website": "https://thehillscommunity.com",
+      "phone": "+1 (864) 555-0123",
+      "email": "concierge@greenvillesocial.com",
+      "address": "123 Main Street, Greenville, SC 29601"
+    },
+    "social": {
+      "facebook": "https://facebook.com/greenvillesocial",
+      "instagram": "https://instagram.com/greenvillesocial",
+      "twitter": "https://twitter.com/greenvillesocial"
+    }
+  },
+  "navigation": {
+    "categories": [
+      {
+        "id": "dining",
+        "name": "Dining",
+        "displayName": "DINING",
+        "description": "Fine dining and culinary experiences",
+        "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=400&fit=crop&crop=center",
+        "icon": "🍽️",
+        "featured": true,
+        "order": 1
+      },
+      {
+        "id": "cocktail-hour",
+        "name": "Cocktail Hour",
+        "displayName": "COCKTAIL HOUR",
+        "description": "Premium cocktails and spirits",
+        "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=400&h=400&fit=crop&crop=center",
+        "icon": "🍸",
+        "featured": true,
+        "order": 2,
+        "specialView": "CocktailHour"
+      },
+      {
+        "id": "private-clubs",
+        "name": "Private Clubs",
+        "displayName": "PRIVATE CLUBS",
+        "description": "Exclusive member clubs and venues",
+        "image": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?w=400&h=400&fit=crop&crop=center",
+        "icon": "🏛️",
+        "featured": false,
+        "order": 3
+      },
+      {
+        "id": "luxury-shopping",
+        "name": "Luxury Shopping",
+        "displayName": "LUXURY SHOPPING",
+        "description": "High-end retail and boutiques",
+        "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=400&h=400&fit=crop&crop=center",
+        "icon": "🛍️",
+        "featured": false,
+        "order": 4,
+        "mappedCategory": "Shopping"
+      },
+      {
+        "id": "wellness-spa",
+        "name": "Wellness & Spa",
+        "displayName": "WELLNESS & SPA",
+        "description": "Luxury wellness and spa services",
+        "image": "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=400&h=400&fit=crop&crop=center",
+        "icon": "🧘‍♀️",
+        "featured": false,
+        "order": 5,
+        "mappedCategory": "Spa"
+      },
+      {
+        "id": "luxury-real-estate",
+        "name": "Luxury Real Estate",
+        "displayName": "REAL ESTATE",
+        "description": "Premium properties and real estate",
+        "image": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=400&h=400&fit=crop&crop=center",
+        "icon": "🏡",
+        "featured": false,
+        "order": 6,
+        "mappedCategory": "Real Estate"
+      },
+      {
+        "id": "arts-culture",
+        "name": "Arts & Culture",
+        "displayName": "ARTS & CULTURE",
+        "description": "Cultural venues and artistic experiences",
+        "image": "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=400&fit=crop&crop=center",
+        "icon": "🎨",
+        "featured": false,
+        "order": 7
+      },
+      {
+        "id": "children",
+        "name": "Children",
+        "displayName": "CHILDREN",
+        "description": "Family-friendly activities and services",
+        "image": "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=400&h=400&fit=crop&crop=center",
+        "icon": "👶",
+        "featured": false,
+        "order": 8
+      },
+      {
+        "id": "athletics",
+        "name": "Athletics",
+        "displayName": "ATHLETICS",
+        "description": "Sports and athletic facilities",
+        "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=center",
+        "icon": "⚽",
+        "featured": false,
+        "order": 9
+      },
+      {
+        "id": "faith",
+        "name": "Faith",
+        "displayName": "FAITH",
+        "description": "Religious and spiritual communities",
+        "image": "https://images.unsplash.com/photo-1507692049790-de58290a4334?w=400&h=400&fit=crop&crop=center",
+        "icon": "⛪",
+        "featured": false,
+        "order": 10
+      },
+      {
+        "id": "hiking",
+        "name": "Hiking",
+        "displayName": "HIKING",
+        "description": "Outdoor adventures and nature trails",
+        "image": "https://images.unsplash.com/photo-1551632811-561732d1e306?w=400&h=400&fit=crop&crop=center",
+        "icon": "🥾",
+        "featured": false,
+        "order": 11
+      }
+    ]
+  },
+  "pages": {
+    "home": {
+      "title": "The Greenville Social",
+      "subtitle": "Mountain community lifestyle for Greenville residents",
+      "features": "Exclusive access • Private clubs • Dining",
+      "heroLayout": "brand-centered"
+    },
+    "events": {
+      "title": "Live Events",
+      "subtitle": "Discover upcoming events in Greenville",
+      "showSignature": true,
+      "showFeatured": true,
+      "showCalendar": true
+    },
+    "map": {
+      "title": "Concierge Map",
+      "subtitle": "Explore Greenville businesses near you",
+      "defaultZoom": 13,
+      "markerIcon": "💎"
+    }
+  },
+  "tiers": {
+    "signature": {
+      "name": "Signature",
+      "displayName": "SIGNATURE",
+      "icon": "👑",
+      "color": "#D4AF37",
+      "gradient": "linear-gradient(135deg, #FFD700, #D4AF37)",
+      "border": "#FFD700",
+      "shadow": "0 8px 32px rgba(212, 175, 55, 0.3)",
+      "priority": 1,
+      "pricing": {
+        "monthly": "$999",
+        "annually": "$9,990",
+        "setup": "$299"
+      },
+      "description": "🥇 PREMIUM TIER - Maximum Visibility & Features",
+      "shortDescription": "Premium placement with maximum features",
+      "features": {
+        "listing": {
+          "position": "Top of category (always first)",
+          "size": "Large card (2x regular size)",
+          "photos": "Hero image + gallery (up to 8 photos)",
+          "badge": "Gold 'Signature' badge",
+          "featured": "Featured on home page"
+        },
+        "advertising": {
+          "interstitial": "Full-screen category ads",
+          "homepage": "Featured placement on homepage",
+          "priority": "Always appears first in searches"
+        },
+        "analytics": {
+          "views": "Detailed view analytics",
+          "clicks": "Click tracking & reporting",
+          "leads": "Lead generation tracking"
+        },
+        "support": {
+          "updates": "Priority listing updates (same day)",
+          "phone": "Direct phone support",
+          "consultation": "Monthly strategy consultation"
+        }
+      },
+      "benefits": [
+        "🎯 Maximum visibility - always listed first",
+        "📸 Large hero images with photo gallery",
+        "🏆 Gold premium badge",
+        "📊 Detailed analytics & lead tracking",
+        "☎️ Priority support & monthly consultation",
+        "🎨 Featured on homepage",
+        "📱 Full-screen category advertisements"
+      ],
+      "ideal_for": "High-end restaurants, luxury services, premium brands"
+    },
+    "premier": {
+      "name": "Premier",
+      "displayName": "PREMIER",
+      "icon": "⭐",
+      "color": "#C0C0C0",
+      "gradient": "linear-gradient(135deg, #E8E8E8, #C0C0C0)",
+      "border": "#C0C0C0",
+      "shadow": "0 6px 24px rgba(192, 192, 192, 0.3)",
+      "priority": 2,
+      "pricing": {
+        "monthly": "$499",
+        "annually": "$4,990",
+        "setup": "$149"
+      },
+      "description": "🥈 PROFESSIONAL TIER - Great Visibility & Key Features",
+      "shortDescription": "Professional placement with key features",
+      "features": {
+        "listing": {
+          "position": "Second tier (after Signature)",
+          "size": "Medium card (standard size)",
+          "photos": "Main image + 3 additional photos",
+          "badge": "Silver 'Premier' badge",
+          "featured": "Rotates in featured spots"
+        },
+        "advertising": {
+          "interstitial": "Category-specific banner ads",
+          "homepage": "Occasional homepage features",
+          "priority": "High search ranking"
+        },
+        "analytics": {
+          "views": "Basic view analytics",
+          "clicks": "Click tracking",
+          "leads": "Monthly lead reports"
+        },
+        "support": {
+          "updates": "Fast listing updates (24-48 hours)",
+          "email": "Priority email support",
+          "consultation": "Quarterly check-ins"
+        }
+      },
+      "benefits": [
+        "⭐ High visibility - second tier placement",
+        "📷 Professional photos with gallery",
+        "🥈 Silver premier badge",
+        "📈 Analytics & monthly reporting",
+        "✉️ Priority email support",
+        "🔄 Occasional homepage features",
+        "🎯 Category banner advertisements"
+      ],
+      "ideal_for": "Established businesses, professional services, growing brands"
+    },
+    "curated": {
+      "name": "Curated",
+      "displayName": "CURATED",
+      "icon": "✨",
+      "color": "#CD7F32",
+      "gradient": "linear-gradient(135deg, #DEB887, #CD7F32)",
+      "border": "#CD7F32",
+      "shadow": "0 4px 16px rgba(205, 127, 50, 0.3)",
+      "priority": 3,
+      "pricing": {
+        "monthly": "$199",
+        "annually": "$1,990",
+        "setup": "$49"
+      },
+      "description": "🥉 ESSENTIAL TIER - Quality Listing with Core Features",
+      "shortDescription": "Quality listing with essential features",
+      "features": {
+        "listing": {
+          "position": "Standard order (after Premier)",
+          "size": "Standard card",
+          "photos": "Main image + 1 additional photo",
+          "badge": "Bronze 'Curated' badge",
+          "featured": "Included in category listings"
+        },
+        "advertising": {
+          "interstitial": "No premium ads",
+          "homepage": "Standard rotation only",
+          "priority": "Standard search ranking"
+        },
+        "analytics": {
+          "views": "Basic monthly stats",
+          "clicks": "Monthly click count",
+          "leads": "Basic lead notifications"
+        },
+        "support": {
+          "updates": "Standard updates (3-5 business days)",
+          "email": "Standard email support",
+          "consultation": "Self-service resources"
+        }
+      },
+      "benefits": [
+        "✨ Quality placement in all categories",
+        "📱 Professional mobile listing",
+        "🏅 Bronze curated badge",
+        "📊 Monthly analytics summary",
+        "📧 Standard email support",
+        "🔍 Included in search results",
+        "💼 Professional business profile"
+      ],
+      "ideal_for": "Small businesses, startups, local services, budget-conscious brands"
+    }
+  },
+  "features": {
+    "enableEvents": true,
+    "enableMap": true,
+    "enableBusinessModal": true,
+    "enableInterstitialAds": true,
+    "enableQRSharing": true,
+    "enablePWA": true,
+    "enableAnalytics": false
+  },
+  "integrations": {
+    "maps": {
+      "provider": "leaflet",
+      "tileProvider": "openstreetmap"
+    },
+    "analytics": {
+      "provider": "none",
+      "trackingId": ""
+    }
+  },
+  "version": "1.0.0",
+  "lastUpdated": "2025-01-15T00:00:00Z"
+}

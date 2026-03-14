@@ -1,0 +1,314 @@
+/*
+ * Navigation Component Styles
+ *
+ * Styles for top bar, bottom navigation, and side menu components.
+ */
+
+/* ===== TOP BAR ===== */
+
+.top-bar {
+  height: var(--nav-height);
+  background: var(--color-bg-primary);
+  border-bottom: 1px solid var(--color-border-secondary);
+  padding: 0 var(--space-4);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: var(--z-sticky);
+  backdrop-filter: var(--backdrop-blur-base);
+}
+
+.top-bar-title {
+  flex: 1;
+  text-align: center;
+  color: var(--color-text-primary);
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.2px;
+  cursor: pointer;
+}
+
+.top-bar-spacer {
+  width: var(--touch-target-recommended);
+  height: var(--touch-target-recommended);
+  flex-shrink: 0;
+}
+
+.top-bar-btn {
+  width: var(--touch-target-recommended);
+  height: var(--touch-target-recommended);
+  background: transparent;
+  border: none;
+  color: var(--color-text-primary);
+  font-size: 22px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: var(--radius-md);
+  transition: opacity 0.15s;
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.top-bar-btn:active {
+  opacity: 0.6;
+}
+
+/* ===== BOTTOM NAVIGATION ===== */
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 480px;
+  background: var(--color-bg-primary);
+  border-top: 1px solid var(--color-border-secondary);
+  padding: var(--space-2) 0 calc(var(--space-2) + env(safe-area-inset-bottom));
+  z-index: var(--z-fixed);
+  backdrop-filter: var(--backdrop-blur-base);
+}
+
+.bottom-nav-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  max-width: var(--container-lg);
+  margin: 0 auto;
+}
+
+.bottom-nav-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-1);
+  background: transparent;
+  border: none;
+  color: var(--color-text-muted);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-medium);
+  cursor: pointer;
+  transition: color 0.15s;
+  padding: var(--space-2);
+  letter-spacing: 0.3px;
+  min-height: var(--nav-item-height);
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.bottom-nav-item.active {
+  color: var(--color-primary);
+}
+
+.bottom-nav-item:active {
+  opacity: 0.7;
+}
+
+.bottom-nav-item:active {
+  transform: scale(0.95);
+}
+
+.bottom-nav-icon {
+  width: 22px;
+  height: 22px;
+  fill: currentColor;
+}
+
+.nav-label {
+  font-size: 10px;
+  font-weight: 600;
+}
+
+/* ===== SIDE MENU ===== */
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 280px;
+  height: 100vh;
+  background: var(--color-bg-primary);
+  border-right: 1px solid var(--color-border-secondary);
+  z-index: var(--z-modal);
+  padding: var(--space-6);
+  overflow-y: auto;
+  backdrop-filter: var(--backdrop-blur-base);
+}
+
+.side-menu-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--space-8);
+  padding-bottom: var(--space-6);
+  border-bottom: 1px solid var(--color-border-secondary);
+  position: relative;
+}
+
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.menu-logo-icon {
+  width: 32px;
+  height: 32px;
+  color: var(--color-primary);
+}
+
+.side-menu-logo {
+  flex: 1;
+  color: var(--color-text-primary);
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  margin: 0;
+  letter-spacing: -0.3px;
+}
+
+.side-menu-nav {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.side-menu-item {
+  margin-bottom: var(--space-2);
+}
+
+.side-menu-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  color: var(--color-text-primary);
+  text-decoration: none;
+  padding: var(--space-3) var(--space-4);
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  transition: var(--transition-fast);
+  font-size: 15px;
+  min-height: var(--nav-item-height);
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.side-menu-link:hover,
+.side-menu-link.active {
+  background: var(--color-primary-alpha-10);
+  color: white;
+}
+
+.side-menu-icon {
+  font-size: var(--font-size-lg);
+  width: 24px;
+  text-align: center;
+}
+
+.side-menu-close {
+  background: transparent;
+  border: none;
+  color: var(--color-text-primary);
+  cursor: pointer;
+  transition: var(--transition-fast);
+  padding: var(--space-2);
+  border-radius: var(--radius-md);
+}
+
+.side-menu-close svg {
+  width: 20px;
+  height: 20px;
+}
+
+.side-menu-close:hover {
+  color: var(--color-primary);
+}
+
+.install-icon {
+  font-size: var(--font-size-xl);
+}
+
+/* ===== SIDE MENU OVERLAY ===== */
+
+.side-menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: color-mix(in srgb, var(--brand-secondary) 60%, transparent);
+  z-index: var(--z-modal-backdrop);
+}
+
+/* ===== SLIDE TRANSITIONS ===== */
+
+.slide-enter-active,
+.slide-leave-active {
+  transition: transform var(--transition-slow);
+}
+
+.slide-enter-from,
+.slide-leave-to {
+  transform: translateX(-100%);
+}
+
+/* ===== BREADCRUMBS ===== */
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-4);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+.breadcrumb-item {
+  color: var(--color-text-muted);
+  text-decoration: none;
+  transition: var(--transition-fast);
+}
+
+.breadcrumb-item:hover {
+  color: var(--color-primary);
+}
+
+.breadcrumb-separator {
+  color: var(--color-text-disabled);
+}
+
+.breadcrumb-current {
+  color: var(--color-primary);
+  font-weight: var(--font-weight-medium);
+}
+
+/* ===== RESPONSIVE STYLES ===== */
+
+@media (min-width: 640px) {
+  .top-bar {
+    padding: 0 var(--space-6);
+  }
+
+  .top-bar-title {
+    font-size: var(--font-size-xl);
+  }
+
+  .bottom-nav {
+    padding: var(--space-3) var(--space-6);
+  }
+
+  .bottom-nav-item {
+    font-size: var(--font-size-sm);
+  }
+
+  .side-menu {
+    width: 320px;
+  }
+}

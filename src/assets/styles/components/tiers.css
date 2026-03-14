@@ -1,0 +1,295 @@
+/*
+ * Three-Tier Monetization System Styles
+ *
+ * Consistent styling for the three-tier advertising structure:
+ * 1. SIGNATURE: Premium tier - Gold gradient with premium styling
+ * 2. PREMIER: Mid-tier - Platinum/Silver with good visibility
+ * 3. CURATED: Basic tier - Dark bronze with standard styling
+ */
+
+/* ===== TIER BADGES ===== */
+
+.tier-badge {
+  display: inline-block;
+  font-size: var(--font-size-2xs);
+  font-weight: var(--font-weight-bold);
+  padding: var(--space-1) var(--space-2);
+  border-radius: var(--radius-sm);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wider);
+}
+
+.tier-badge.signature {
+  background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
+  color: var(--color-bg-primary);
+  box-shadow: 0 2px 8px var(--color-primary-alpha-30);
+}
+
+.tier-badge.premier {
+  background: var(--color-platinum);
+  color: var(--color-bg-primary);
+  box-shadow: 0 2px 8px rgba(229, 228, 226, 0.3);
+}
+
+
+/* ===== TIER 1: SIGNATURE LISTINGS ===== */
+
+.signature-card {
+  cursor: pointer;
+  transition: var(--transition-all);
+  display: flex;
+  flex-direction: column;
+}
+
+.signature-card:active {
+  transform: scale(0.98);
+}
+
+.signature-image-container {
+  position: relative;
+  border-radius: var(--radius-2xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-primary-lg);
+  border: 3px solid #FFD700;
+  margin-bottom: var(--space-4);
+}
+
+.signature-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
+.signature-overlay {
+  position: absolute;
+  top: var(--space-4);
+  right: var(--space-4);
+}
+
+.signature-info {
+  padding: 0 var(--space-4);
+}
+
+.signature-category {
+  color: var(--color-primary);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-wide);
+  margin-bottom: var(--space-2);
+}
+
+.signature-title {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-heading);
+  line-height: var(--line-height-tight);
+  margin: 0 0 var(--space-3);
+  color: var(--color-text-primary);
+}
+
+.signature-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-3);
+  margin-bottom: var(--space-3);
+  font-size: var(--font-size-sm);
+  font-weight: var(--font-weight-semibold);
+}
+
+.signature-description {
+  font-size: var(--font-size-base);
+  color: var(--color-text-secondary);
+  line-height: var(--line-height-relaxed);
+  margin: 0;
+}
+
+/* ===== TIER 2: PREMIER LISTINGS ===== */
+
+.premier-card {
+  cursor: pointer;
+  transition: var(--transition-all);
+  display: flex;
+  flex-direction: column;
+}
+
+.premier-card:active {
+  transform: scale(0.95);
+}
+
+.premier-image-container {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+  border: 2px solid #C0C0C0;
+  aspect-ratio: 4/3;
+  margin-bottom: var(--space-3);
+}
+
+.premier-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.premier-overlay {
+  position: absolute;
+  top: var(--space-3);
+  right: var(--space-3);
+}
+
+.premier-info {
+  text-align: center;
+  padding: 0 var(--space-2);
+}
+
+.premier-name {
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  margin: 0 0 var(--space-1);
+  line-height: var(--line-height-tight);
+  color: var(--color-text-primary);
+}
+
+.premier-category {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* ===== TIER 3: CURATED LISTINGS ===== */
+
+.curated-item {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-3);
+  background: var(--color-bg-secondary);
+  border: 1px solid var(--color-border-primary);
+  border-radius: var(--radius-lg);
+  cursor: pointer;
+  transition: var(--transition-all);
+}
+
+.curated-item:hover {
+  border-color: var(--color-primary);
+  box-shadow: var(--shadow-primary);
+}
+
+.curated-item:active {
+  transform: scale(0.98);
+}
+
+.curated-image-wrapper {
+  flex-shrink: 0;
+}
+
+.curated-image {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #CD7F32;
+  box-shadow: var(--shadow-md);
+}
+
+.curated-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.curated-title {
+  color: var(--color-text-primary);
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-bold);
+  margin: 0 0 var(--space-1);
+  line-height: var(--line-height-tight);
+}
+
+.curated-subtitle {
+  color: var(--color-text-secondary);
+  font-size: var(--font-size-sm);
+  margin: 0 0 var(--space-2);
+}
+
+.curated-meta {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.curated-price {
+  color: var(--color-text-tertiary);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+}
+
+/* ===== RESPONSIVE ADJUSTMENTS ===== */
+
+/* Tablet (640px+) */
+@media (min-width: 640px) {
+  .signature-image {
+    height: 350px;
+  }
+
+  .signature-title {
+    font-size: var(--font-size-3xl);
+  }
+
+  .curated-image {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+/* Desktop (1024px+) */
+@media (min-width: 1024px) {
+  .signature-image {
+    height: 400px;
+  }
+
+  .curated-image {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+/* Mobile (768px and below) */
+@media (max-width: 768px) {
+  .signature-image-container {
+    margin-bottom: var(--space-3);
+  }
+
+  .signature-info {
+    padding: 0 var(--space-3);
+  }
+
+  .signature-title {
+    font-size: var(--font-size-xl);
+  }
+
+  .signature-details {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-2);
+  }
+}
+
+/* Small Mobile (480px and below) */
+@media (max-width: 480px) {
+  .signature-info {
+    padding: 0 var(--space-2);
+  }
+
+  .signature-title {
+    font-size: var(--font-size-lg);
+  }
+
+  .curated-item {
+    padding: var(--space-3);
+  }
+}
